@@ -241,6 +241,106 @@
       "type": "reinforce"
     },
     {
+      "from": "network-speed",
+      "to": "xr-metaverse",
+      "type": "reinforce"
+    },
+    {
+      "from": "network-speed",
+      "to": "translation-software",
+      "type": "reinforce"
+    },
+    {
+      "from": "network-speed",
+      "to": "online-collaboration",
+      "type": "reinforce"
+    },
+    {
+      "from": "network-speed",
+      "to": "gaming-culture",
+      "type": "reinforce"
+    },
+    {
+      "from": "network-speed",
+      "to": "collaboration-technology",
+      "type": "reinforce"
+    },
+    {
+      "from": "ocean-levels",
+      "to": "climate-migration",
+      "type": "strong-reinforce"
+    },
+    {
+      "from": "online-collaboration",
+      "to": "cultural-exposure",
+      "type": "reinforce"
+    },
+    {
+      "from": "pandemic-endemic",
+      "to": "public-health",
+      "type": "strong-contradict"
+    },
+    {
+      "from": "pandemic-endemic",
+      "to": "personal-space-sensitivity",
+      "type": "strong-reinforce"
+    },
+    {
+      "from": "pandemic-endemic",
+      "to": "personal-security",
+      "type": "contradict"
+    },
+    {
+      "from": "personal-space-sensitivity",
+      "to": "personal-security",
+      "type": "contradict"
+    },
+    {
+      "from": "pollution-levels",
+      "to": "public-health",
+      "type": "strong-contradict"
+    },
+    {
+      "from": null,
+      "to": null,
+      "type": null
+    },
+    {
+      "from": null,
+      "to": null,
+      "type": null
+    },
+    {
+      "from": null,
+      "to": null,
+      "type": null
+    },
+    {
+      "from": null,
+      "to": null,
+      "type": null
+    },
+    {
+      "from": null,
+      "to": null,
+      "type": null
+    },
+    {
+      "from": null,
+      "to": null,
+      "type": null
+    },
+    {
+      "from": null,
+      "to": null,
+      "type": null
+    },
+    {
+      "from": null,
+      "to": null,
+      "type": null
+    },
+    {
       "from": null,
       "to": null,
       "type": null
@@ -432,8 +532,8 @@
       "label": "national debts"
     },
     {
-      "id": "network-speeds",
-      "label": "network speeds"
+      "id": "network-speed",
+      "label": "network speed"
     },
     {
       "id": "ocean-levels",

@@ -295,9 +295,9 @@ connections:
     to: online-collaboratio
     type: strong-reinforce
   - 
-    from: 
-    to: 
-    type: reinforce
+    from: cultural-exposure
+    to: xenophobia
+    type: contradict
   - 
     from: 
     to: 

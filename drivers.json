@@ -373,9 +373,9 @@
       "type": "strong-reinforce"
     },
     {
-      "from": null,
-      "to": null,
-      "type": "reinforce"
+      "from": "cultural-exposure",
+      "to": "xenophobia",
+      "type": "contradict"
     },
     {
       "from": null,

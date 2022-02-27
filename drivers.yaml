@@ -84,21 +84,69 @@ connections:
   - from: gdp
     to: job-market
     type: strong-reinforce
-  - from: null
-    to: null
+  - from: governmental-education-funding
+    to: public-k12-enrollment
+    type: strong-reinforce
+  - from: governmental-education-funding
+    to: private-k12-enrollment
+    type: contradict
+  - from: governmental-education-funding
+    to: pre-k-funding
+    type: strong-reinforce
+  - from: governmental-education-funding
+    to: teacher-salaries
     type: reinforce
-  - from: null
-    to: null
+  - from: governmental-education-funding
+    to: school-facilities-health
+    type: strong-reinforce
+  - from: governmental-education-funding
+    to: home-schooling
+    type: contradict
+  - from: green-energy-production
+    to: air-quality
+    type: strong-reinforce
+  - from: green-energy-production
+    to: climate-change-imperative
+    type: contradict
+  - from: industry-requirements-of-college-degrees
+    to: college-enrollment
+    type: strong-reinforce
+  - from: interest-rates
+    to: college-affordability
+    type: contradict
+  - from: interest-rates
+    to: college-debt
+    type: strong-reinforce
+  - from: interest-rates
+    to: job-market
+    type: contradict
+  - from: job-market
+    to: college-enrollment
+    type: contradict
+  - from: job-market
+    to: gdp
+    type: strong-reinforce
+  - from: job-market
+    to: immigration-policies
     type: reinforce
-  - from: null
-    to: null
+  - from: job-market
+    to: industry-requirements-of-college-degrees
+    type: contradict
+  - from: home-schooling
+    to: public-k12-enrollment
+    type: contradict
+  - from: home-schooling
+    to: private-k12-enrollment
+    type: contradict
+  - from: longevity
+    to: population-size
+    type: strong-reinforce
+  - from: national-debts
+    to: interest-rates
     type: reinforce
-  - from: null
-    to: null
-    type: reinforce
-  - from: null
-    to: null
-    type: reinforce
+  - from: 
+    to: 
+    type: 
 elements:
   - id: ai-learning-assistants
     label: AI learning assistants
@@ -232,8 +280,8 @@ elements:
     label: fundamentalism
   - id: respect-for-teaching
     label: respect for teaching
-  - id: school-facilities-conditions
-    label: school facilities conditions
+  - id: school-facilities-health
+    label: school facilities health
   - id: standardized-testing
     label: standardized testing
   - id: teacher-education-enrollment

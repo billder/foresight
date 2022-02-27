@@ -357,7 +357,7 @@
     },
     {
       "from": "computing-power",
-      "to": "network-speeds",
+      "to": "network-speed",
       "type": "reinforce"
     },
     {
@@ -371,14 +371,14 @@
       "type": "reinforce"
     },
     {
-      "from": null,
-      "to": null,
-      "type": null
+      "from": "quantum-computing",
+      "to": "ai-ml",
+      "type": "strong-reinforce"
     },
     {
-      "from": null,
-      "to": null,
-      "type": null
+      "from": "fundamentalism",
+      "to": "authoritarianism",
+      "type": "strong-reinforce"
     },
     {
       "from": null,

@@ -214,7 +214,7 @@ connections:
     to: teacher-salaries
     type: strong-reinforce
   - from: computing-power
-    to: network-speeds
+    to: network-speed
     type: reinforce
   - from: work-life-balance
     to: college-enrollment
@@ -222,12 +222,12 @@ connections:
   - from: cultural-exposure
     to: diversity-vs-segregation
     type: reinforce
-  - from: 
-    to: 
-    type: 
-  - from: 
-    to: 
-    type: 
+  - from: quantum-computing
+    to: ai-ml
+    type: strong-reinforce
+  - from: fundamentalism
+    to: authoritarianism
+    type: strong-reinforce
   - from: 
     to: 
     type: 

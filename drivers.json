@@ -1,4 +1,81 @@
 {
+  "connections": [
+    {
+      "from": "ai-ml",
+      "to": "ai-learning-assistants",
+      "type": "strong-reinforce"
+    },
+    {
+      "from": "computing-power",
+      "to": "ai-ml",
+      "type": "strong-reinforce"
+    },
+    {
+      "from": "ai-ml",
+      "to": "collaboration-technology",
+      "type": "reinforce"
+    },
+    {
+      "from": "ai-ml",
+      "to": "search",
+      "type": "strong-reinforce"
+    },
+    {
+      "from": "ai-ml",
+      "to": "cybersecurity",
+      "type": "reinforce"
+    },
+    {
+      "from": "air-quality",
+      "to": "public-health",
+      "type": "strong-reinforce"
+    },
+    {
+      "from": "authoritarianism",
+      "to": "gender-equality",
+      "type": "contradict"
+    },
+    {
+      "from": "authoritarianism",
+      "to": "free-speech",
+      "type": "contradict"
+    },
+    {
+      "from": "climate-migration",
+      "to": "college-enrollment",
+      "type": "reinforce"
+    },
+    {
+      "from": "collaboration-technology",
+      "to": "online-collaboratio",
+      "type": "strong-reinforce"
+    },
+    {
+      "from": "cultural-exposure",
+      "to": "xenophobia",
+      "type": "contradict"
+    },
+    {
+      "from": null,
+      "to": null,
+      "type": "reinforce"
+    },
+    {
+      "from": null,
+      "to": null,
+      "type": "reinforce"
+    },
+    {
+      "from": null,
+      "to": null,
+      "type": "reinforce"
+    },
+    {
+      "from": null,
+      "to": null,
+      "type": "reinforce"
+    }
+  ],
   "elements": [
     {
       "id": "ai-learning-assistants",
@@ -319,83 +396,6 @@
     {
       "id": null,
       "label": "XR/metaverse affordability"
-    }
-  ],
-  "connections": [
-    {
-      "from": "ai-ml",
-      "to": "ai-learning-assistants",
-      "type": "strong-reinforce"
-    },
-    {
-      "from": "computing-power",
-      "to": "ai-ml",
-      "type": "strong-reinforce"
-    },
-    {
-      "from": "ai-ml",
-      "to": "collaboration-technology",
-      "type": "reinforce"
-    },
-    {
-      "from": "ai-ml",
-      "to": "search",
-      "type": "strong-reinforce"
-    },
-    {
-      "from": "ai-ml",
-      "to": "cybersecurity",
-      "type": "reinforce"
-    },
-    {
-      "from": "air-quality",
-      "to": "public-health",
-      "type": "strong-reinforce"
-    },
-    {
-      "from": "authoritarianism",
-      "to": "gender-equality",
-      "type": "contradict"
-    },
-    {
-      "from": "authoritarianism",
-      "to": "free-speech",
-      "type": "contradict"
-    },
-    {
-      "from": "climate-migration",
-      "to": "college-enrollment",
-      "type": "reinforce"
-    },
-    {
-      "from": "collaboration-technology",
-      "to": "online-collaboratio",
-      "type": "strong-reinforce"
-    },
-    {
-      "from": "cultural-exposure",
-      "to": "xenophobia",
-      "type": "contradict"
-    },
-    {
-      "from": null,
-      "to": null,
-      "type": "reinforce"
-    },
-    {
-      "from": null,
-      "to": null,
-      "type": "reinforce"
-    },
-    {
-      "from": null,
-      "to": null,
-      "type": "reinforce"
-    },
-    {
-      "from": null,
-      "to": null,
-      "type": "reinforce"
     }
   ]
 }

@@ -56,9 +56,9 @@
       "type": "contradict"
     },
     {
-      "from": null,
-      "to": null,
-      "type": "reinforce"
+      "from": "college-affordability",
+      "to": "college-debt",
+      "type": "strong-contradict"
     },
     {
       "from": null,

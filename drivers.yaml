@@ -33,9 +33,9 @@ connections:
   - from: cultural-exposure
     to: xenophobia
     type: contradict
-  - from: null
-    to: null
-    type: reinforce
+  - from: college-affordability
+    to: college-debt
+    type: strong-contradict
   - from: null
     to: null
     type: reinforce

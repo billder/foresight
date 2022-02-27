@@ -28,14 +28,68 @@ connections:
     to: college-enrollment
     type: reinforce
   - from: collaboration-technology
-    to: online-collaboratio
+    to: online-collaboration
     type: strong-reinforce
   - from: cultural-exposure
     to: xenophobia
-    type: contradict
+    type: strong-contradict
+  - from: cultural-exposure
+    to: racism
+    type: strong-contradict
   - from: college-affordability
     to: college-debt
     type: strong-contradict
+  - from: college-affordability
+    to: college-enrollment
+    type: reinforce
+  - from: college-debt-forgiveness
+    to: college-debt
+    type: strong-contradict
+  - from: computing-power
+    to: translation-software
+    type: reinforce
+  - from: computing-power
+    to: xr-metaverse
+    type: reinforce
+  - from: computing-power
+    to: ai-ml
+    type: reinforce
+  - from: computing-power
+    to: collaboration-technology
+    type: reinforce
+  - from: curriculum-investment
+    to: content-creation-tools
+    type: reinforce
+  - from: cybersecurity
+    to: personal-security
+    type: reinforce
+  - from: extreme-weather
+    to: public-health
+    type: contradict
+  - from: food-supply
+    to: public-health
+    type: strong-reinforce
+  - from: fresh-water-supply
+    to: public-health
+    type: strong-reinforce
+  - from: gaming-culture
+    to: collaboration-technology
+    type: reinforce
+  - from: gdp
+    to: governmental-education-funding
+    type: strong-reinforce
+  - from: gdp
+    to: poverty
+    type: contradict
+  - from: gdp
+    to: job-market
+    type: strong-reinforce
+  - from: null
+    to: null
+    type: reinforce
+  - from: null
+    to: null
+    type: reinforce
   - from: null
     to: null
     type: reinforce
@@ -174,35 +228,35 @@ elements:
     label: racism
   - id: cultism
     label: cultism
-  - id: null
-    label: religious incursion into government
-  - id: null
+  - id: fundamentalism
+    label: fundamentalism
+  - id: respect-for-teaching
     label: respect for teaching
-  - id: null
+  - id: school-facilities-conditions
     label: school facilities conditions
-  - id: null
+  - id: standardized-testing
     label: standardized testing
-  - id: null
+  - id: teacher-education-enrollment
     label: teacher education enrollment
-  - id: null
+  - id: teacher-salaries
     label: teacher salaries
-  - id: null
-    label: teacher:student ratio
-  - id: null
+  - id: student-teacher-ratio
+    label: student:teacher ratio
+  - id: tech-affordability
     label: tech affordability
-  - id: null
+  - id: tech-monopolies
     label: tech monopolies
-  - id: null
+  - id: translation-software
     label: translation software
-  - id: null
-    label: war vs peace
-  - id: null
+  - id: active-war
+    label: active war
+  - id: wealth-inequality
     label: wealth inequality
-  - id: null
-    label: work vs personal time
-  - id: null
+  - id: work-life-balance
+    label: work life balance
+  - id: xenophobia
     label: xenophobia
-  - id: null
+  - id: xr-metaverse
     label: XR/metaverse
-  - id: null
+  - id: xr-affordability
     label: XR/metaverse affordability

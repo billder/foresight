@@ -368,9 +368,9 @@
       "type": "reinforce"
     },
     {
-      "from": null,
-      "to": null,
-      "type": "reinforce"
+      "from": "collaboration-technology",
+      "to": "online-collaboratio",
+      "type": "strong-reinforce"
     },
     {
       "from": null,

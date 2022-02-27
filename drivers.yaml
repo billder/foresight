@@ -291,9 +291,9 @@ connections:
     to: college-enrollment
     type: reinforce
   - 
-    from: 
-    to: 
-    type: reinforce
+    from: collaboration-technology
+    to: online-collaboratio
+    type: strong-reinforce
   - 
     from: 
     to: 

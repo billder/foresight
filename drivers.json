@@ -301,29 +301,29 @@
       "type": "strong-contradict"
     },
     {
-      "from": null,
-      "to": null,
-      "type": null
+      "from": "population-size",
+      "to": "personal-security",
+      "type": "contradict"
     },
     {
-      "from": null,
-      "to": null,
-      "type": null
+      "from": "population-size",
+      "to": "student-teacher-ratio",
+      "type": "contradict"
     },
     {
-      "from": null,
-      "to": null,
-      "type": null
+      "from": "poverty",
+      "to": "public-k12-enrollment",
+      "type": "reinforce"
     },
     {
-      "from": null,
-      "to": null,
-      "type": null
+      "from": "poverty",
+      "to": "public-health",
+      "type": "contradict"
     },
     {
-      "from": null,
-      "to": null,
-      "type": null
+      "from": "poverty",
+      "to": "civil-wars",
+      "type": "reinforce"
     },
     {
       "from": null,

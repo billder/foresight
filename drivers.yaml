@@ -180,21 +180,21 @@ connections:
   - from: pollution-levels
     to: public-health
     type: strong-contradict
-  - from: 
-    to: 
-    type: 
-  - from: 
-    to: 
-    type: 
-  - from: 
-    to: 
-    type: 
-  - from: 
-    to: 
-    type: 
-  - from: 
-    to: 
-    type: 
+  - from: population-size
+    to: personal-security
+    type: contradict
+  - from: population-size
+    to: student-teacher-ratio
+    type: contradict
+  - from: poverty
+    to: public-k12-enrollment
+    type: reinforce
+  - from: poverty
+    to: public-health
+    type: contradict
+  - from: poverty
+    to: civil-wars
+    type: reinforce
   - from: 
     to: 
     type: 

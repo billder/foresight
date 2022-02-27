@@ -326,9 +326,49 @@
       "type": "reinforce"
     },
     {
-      "from": null,
-      "to": null,
-      "type": null
+      "from": "wealth-inequality",
+      "to": "poverty",
+      "type": "strong-reinforce"
+    },
+    {
+      "from": "fundamentalism",
+      "to": "cultism",
+      "type": "reinforce"
+    },
+    {
+      "from": "online-collaboration",
+      "to": "interest-based classes",
+      "type": "reinforce"
+    },
+    {
+      "from": "teacher-salaries",
+      "to": "teacher-education-enrollment",
+      "type": "strong-reinforce"
+    },
+    {
+      "from": "respect-for-teaching",
+      "to": "teacher-education-enrollment",
+      "type": "reinforce"
+    },
+    {
+      "from": "respect-for-teaching",
+      "to": "teacher-salaries",
+      "type": "strong-reinforce"
+    },
+    {
+      "from": "computing-power",
+      "to": "network-speeds",
+      "type": "reinforce"
+    },
+    {
+      "from": "work-life-balance",
+      "to": "college-enrollment",
+      "type": "reinforce"
+    },
+    {
+      "from": "cultural-exposure",
+      "to": "diversity-vs-segregation",
+      "type": "reinforce"
     },
     {
       "from": null,
@@ -472,8 +512,8 @@
       "label": "gender equality"
     },
     {
-      "id": "global-warming-imperative",
-      "label": "global warming imperative"
+      "id": "climate-change-imperative",
+      "label": "climate change imperative"
     },
     {
       "id": "governmental-education-funding",
@@ -614,6 +654,10 @@
     {
       "id": "school-facilities-health",
       "label": "school facilities health"
+    },
+    {
+      "id": "social-media",
+      "label": "social media"
     },
     {
       "id": "standardized-testing",

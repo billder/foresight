@@ -195,9 +195,33 @@ connections:
   - from: poverty
     to: civil-wars
     type: reinforce
-  - from: 
-    to: 
-    type: 
+  - from: wealth-inequality
+    to: poverty
+    type: strong-reinforce
+  - from: fundamentalism
+    to: cultism
+    type: reinforce
+  - from: online-collaboration
+    to: interest-based classes
+    type: reinforce
+  - from: teacher-salaries
+    to: teacher-education-enrollment
+    type: strong-reinforce
+  - from: respect-for-teaching
+    to: teacher-education-enrollment
+    type: reinforce
+  - from: respect-for-teaching
+    to: teacher-salaries
+    type: strong-reinforce
+  - from: computing-power
+    to: network-speeds
+    type: reinforce
+  - from: work-life-balance
+    to: college-enrollment
+    type: reinforce
+  - from: cultural-exposure
+    to: diversity-vs-segregation
+    type: reinforce
   - from: 
     to: 
     type: 
@@ -270,8 +294,8 @@ elements:
     label: GDP
   - id: gender-equality
     label: gender equality
-  - id: global-warming-imperative
-    label: global warming imperative
+  - id: climate-change-imperative
+    label: climate change imperative
   - id: governmental-education-funding
     label: governmental education funding
   - id: green-energy-production
@@ -342,6 +366,8 @@ elements:
     label: respect for teaching
   - id: school-facilities-health
     label: school facilities health
+  - id: social-media
+    label: social media
   - id: standardized-testing
     label: standardized testing
   - id: teacher-education-enrollment

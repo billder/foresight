@@ -77,7 +77,7 @@
     },
     {
       "from": "computing-power",
-      "to": "translation-software",
+      "to": "translation-tech",
       "type": "reinforce"
     },
     {
@@ -247,7 +247,7 @@
     },
     {
       "from": "network-speed",
-      "to": "translation-software",
+      "to": "translation-tech",
       "type": "reinforce"
     },
     {
@@ -381,6 +381,36 @@
       "type": "strong-reinforce"
     },
     {
+      "from": "translation-tech",
+      "to": "global-communication",
+      "type": "reinforce"
+    },
+    {
+      "from": "network-speed",
+      "to": "social-media",
+      "type": "reinforce"
+    },
+    {
+      "from": "content-creation",
+      "to": "social-media",
+      "type": "reinforce"
+    },
+    {
+      "from": "translation-tech",
+      "to": "cultural-exposure",
+      "type": "reinforce"
+    },
+    {
+      "from": "ai-ml",
+      "to": "translation-tech",
+      "type": "strong-reinforce"
+    },
+    {
+      "from": "cultural-exposure",
+      "to": "fundamentalism",
+      "type": "strong-contradict"
+    },
+    {
       "from": null,
       "to": null,
       "type": null
@@ -416,6 +446,10 @@
       "label": "civil wars"
     },
     {
+      "id": "climate-change-imperative",
+      "label": "climate change imperative"
+    },
+    {
       "id": "climate-migration",
       "label": "climate migration"
     },
@@ -438,10 +472,6 @@
     {
       "id": "college-enrollment",
       "label": "college enrollment"
-    },
-    {
-      "id": "personal-space-sensitivity",
-      "label": "personal space sensitivity"
     },
     {
       "id": "computing-power",
@@ -472,8 +502,8 @@
       "label": "data storage"
     },
     {
-      "id": "search-technology",
-      "label": "search technology"
+      "id": "diversity-vs-segregation",
+      "label": "diversity vs segregation"
     },
     {
       "id": "visual-language",
@@ -512,8 +542,8 @@
       "label": "gender equality"
     },
     {
-      "id": "climate-change-imperative",
-      "label": "climate change imperative"
+      "id": "global-communication",
+      "label": "global communication"
     },
     {
       "id": "governmental-education-funding",
@@ -544,8 +574,8 @@
       "label": "holistic learning vs skills acquisition"
     },
     {
-      "id": "diversity-vs-segregation",
-      "label": "diversity vs segregation"
+      "id": "home-schooling",
+      "label": "home schooling"
     },
     {
       "id": "interest-rates",
@@ -558,10 +588,6 @@
     {
       "id": "job-market",
       "label": "job market"
-    },
-    {
-      "id": "home-schooling",
-      "label": "home schooling"
     },
     {
       "id": "longevity",
@@ -598,6 +624,10 @@
     {
       "id": "personal-security",
       "label": "personal security"
+    },
+    {
+      "id": "personal-space-sensitivity",
+      "label": "personal space sensitivity"
     },
     {
       "id": "pollution-levels",
@@ -652,6 +682,10 @@
       "label": "respect for teaching"
     },
     {
+      "id": "search",
+      "label": "search"
+    },
+    {
       "id": "school-facilities-health",
       "label": "school facilities health"
     },
@@ -684,8 +718,8 @@
       "label": "tech monopolies"
     },
     {
-      "id": "translation-software",
-      "label": "translation software"
+      "id": "translation-tech",
+      "label": "translation tech"
     },
     {
       "id": "active-war",

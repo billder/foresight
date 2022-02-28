@@ -46,7 +46,7 @@ connections:
     to: college-debt
     type: strong-contradict
   - from: computing-power
-    to: translation-software
+    to: translation-tech
     type: reinforce
   - from: computing-power
     to: xr-metaverse
@@ -148,7 +148,7 @@ connections:
     to: xr-metaverse
     type: reinforce
   - from: network-speed
-    to: translation-software
+    to: translation-tech
     type: reinforce
   - from: network-speed
     to: online-collaboration
@@ -228,9 +228,27 @@ connections:
   - from: fundamentalism
     to: authoritarianism
     type: strong-reinforce
-  - from: 
-    to: 
-    type: 
+  - from: translation-tech
+    to: global-communication
+    type: reinforce
+  - from: network-speed
+    to: social-media
+    type: reinforce
+  - from: content-creation
+    to: social-media
+    type: reinforce
+  - from: translation-tech
+    to: cultural-exposure
+    type: reinforce
+  - from: ai-ml
+    to: translation-tech
+    type: strong-reinforce
+  - from: cultural-exposure
+    to: fundamentalism
+    type: strong-contradict
+  - from: null
+    to: null
+    type: null
 elements:
   - id: ai-learning-assistants
     label: AI learning assistants
@@ -246,6 +264,8 @@ elements:
     label: governmental leader age
   - id: civil-wars
     label: civil wars
+  - id: climate-change-imperative
+    label: climate change imperative
   - id: climate-migration
     label: climate migration
   - id: collaboration-technology
@@ -258,8 +278,6 @@ elements:
     label: college debt forgiveness
   - id: college-enrollment
     label: college enrollment
-  - id: personal-space-sensitivity
-    label: personal space sensitivity
   - id: computing-power
     label: computing power
   - id: content-creation
@@ -274,8 +292,8 @@ elements:
     label: cybersecurity
   - id: data-storage
     label: data storage
-  - id: search-technology
-    label: search technology
+  - id: diversity-vs-segregation
+    label: diversity vs segregation
   - id: visual-language
     label: visual language
   - id: cultural-exposure
@@ -294,8 +312,8 @@ elements:
     label: GDP
   - id: gender-equality
     label: gender equality
-  - id: climate-change-imperative
-    label: climate change imperative
+  - id: global-communication
+    label: global communication
   - id: governmental-education-funding
     label: governmental education funding
   - id: green-energy-production
@@ -310,16 +328,14 @@ elements:
     label: industry requirements of college degrees
   - id: holistic-learning-vs-skills-acquisition
     label: holistic learning vs skills acquisition
-  - id: diversity-vs-segregation
-    label: diversity vs segregation
+  - id: home-schooling
+    label: home schooling
   - id: interest-rates
     label: interest rates
   - id: interstate-cooperation
     label: interstate cooperation
   - id: job-market
     label: job market
-  - id: home-schooling
-    label: home schooling
   - id: longevity
     label: longevity
   - id: national-debts
@@ -338,6 +354,8 @@ elements:
     label: parental involvement in education
   - id: personal-security
     label: personal security
+  - id: personal-space-sensitivity
+    label: personal space sensitivity
   - id: pollution-levels
     label: pollution levels
   - id: population-size
@@ -364,6 +382,8 @@ elements:
     label: fundamentalism
   - id: respect-for-teaching
     label: respect for teaching
+  - id: search
+    label: search
   - id: school-facilities-health
     label: school facilities health
   - id: social-media
@@ -380,8 +400,8 @@ elements:
     label: tech affordability
   - id: tech-monopolies
     label: tech monopolies
-  - id: translation-software
-    label: translation software
+  - id: translation-tech
+    label: translation tech
   - id: active-war
     label: active war
   - id: wealth-inequality

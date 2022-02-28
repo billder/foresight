@@ -251,7 +251,7 @@ connections:
     type: pro2
   - from: public-health
     to: dystopia
-    type: con
+    type: con1
   - from: public-health
     to: longevity
     type: pro2
@@ -273,9 +273,18 @@ connections:
   - from: free-speech
     to: global-communication
     type: pro1
-  - from: null
-    to: null
-    type: null
+  - from: active-war
+    to: dystopia
+    type: pro1
+  - from: job-market
+    to: holistic-vs-skills
+    type: pro1
+  - from: visual-language
+    to: global-communication
+    type: pro1
+  - from: social-media
+    to: visual-language
+    type: pro1
   - from: null
     to: null
     type: null
@@ -362,7 +371,7 @@ elements:
     label: immigration policies
   - id: industry-requirements-of-college-degrees
     label: industry requirements of college degrees
-  - id: holistic-learning-vs-skills-acquisition
+  - id: holistic-vs-skills
     label: holistic learning vs skills acquisition
   - id: home-schooling
     label: home schooling

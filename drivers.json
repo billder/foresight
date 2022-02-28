@@ -418,7 +418,7 @@
     {
       "from": "public-health",
       "to": "dystopia",
-      "type": "con"
+      "type": "con1"
     },
     {
       "from": "public-health",
@@ -456,9 +456,24 @@
       "type": "pro1"
     },
     {
-      "from": null,
-      "to": null,
-      "type": null
+      "from": "active-war",
+      "to": "dystopia",
+      "type": "pro1"
+    },
+    {
+      "from": "job-market",
+      "to": "holistic-vs-skills",
+      "type": "pro1"
+    },
+    {
+      "from": "visual-language",
+      "to": "global-communication",
+      "type": "pro1"
+    },
+    {
+      "from": "social-media",
+      "to": "visual-language",
+      "type": "pro1"
     },
     {
       "from": null,
@@ -628,7 +643,7 @@
       "label": "industry requirements of college degrees"
     },
     {
-      "id": "holistic-learning-vs-skills-acquisition",
+      "id": "holistic-vs-skills",
       "label": "holistic learning vs skills acquisition"
     },
     {

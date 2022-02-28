@@ -264,6 +264,21 @@ connections:
   - from: student-teacher-ratio
     to: public-k12-enrollment
     type: pro1
+  - from: xenophobia
+    to: immigration-policies
+    type: con1
+  - from: racism
+    to: xenophobia
+    type: pro2
+  - from: free-speech
+    to: global-communication
+    type: pro1
+  - from: null
+    to: null
+    type: null
+  - from: null
+    to: null
+    type: null
   - from: null
     to: null
     type: null

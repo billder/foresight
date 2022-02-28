@@ -249,21 +249,21 @@ connections:
   - from: content-creation-tools
     to: content-creation
     type: pro2
-  - from: null
-    to: null
-    type: null
-  - from: null
-    to: null
-    type: null
-  - from: null
-    to: null
-    type: null
-  - from: null
-    to: null
-    type: null
-  - from: null
-    to: null
-    type: null
+  - from: public-health
+    to: dystopia
+    type: con
+  - from: public-health
+    to: longevity
+    type: pro2
+  - from: pandemic-endemic
+    to: public-health
+    type: con2
+  - from: fundamentalism
+    to: intellectual-elite
+    type: con1
+  - from: student-teacher-ratio
+    to: public-k12-enrollment
+    type: pro1
   - from: null
     to: null
     type: null
@@ -350,8 +350,6 @@ elements:
     label: home schooling
   - id: interest-rates
     label: interest rates
-  - id: interstate-cooperation
-    label: interstate cooperation
   - id: job-market
     label: job market
   - id: longevity
@@ -406,8 +404,6 @@ elements:
     label: school facilities health
   - id: social-media
     label: social media
-  - id: standardized-testing
-    label: standardized testing
   - id: teacher-education-enrollment
     label: teacher education enrollment
   - id: teacher-salaries

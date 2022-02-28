@@ -476,6 +476,26 @@
       "type": "pro1"
     },
     {
+      "from": "ocean-levels",
+      "to": "climate-change-imperative",
+      "type": "pro2"
+    },
+    {
+      "from": "population-size",
+      "to": "cultural-exposure",
+      "type": "pro1"
+    },
+    {
+      "from": null,
+      "to": null,
+      "type": null
+    },
+    {
+      "from": null,
+      "to": null,
+      "type": null
+    },
+    {
       "from": null,
       "to": null,
       "type": null

@@ -2,250 +2,268 @@
 connections:
   - from: ai-ml
     to: ai-learning-assistants
-    type: strong-reinforce
+    type: pro2
   - from: computing-power
     to: ai-ml
-    type: strong-reinforce
+    type: pro2
   - from: ai-ml
     to: collaboration-technology
-    type: reinforce
+    type: pro1
   - from: ai-ml
     to: search
-    type: strong-reinforce
+    type: pro2
   - from: ai-ml
     to: cybersecurity
-    type: reinforce
+    type: pro1
   - from: air-quality
     to: public-health
-    type: strong-reinforce
+    type: pro2
   - from: authoritarianism
     to: gender-equality
-    type: contradict
+    type: con1
   - from: authoritarianism
     to: free-speech
-    type: contradict
+    type: con1
   - from: climate-migration
     to: college-enrollment
-    type: reinforce
+    type: pro1
   - from: collaboration-technology
     to: online-collaboration
-    type: strong-reinforce
+    type: pro2
   - from: cultural-exposure
     to: xenophobia
-    type: strong-contradict
+    type: con2
   - from: cultural-exposure
     to: racism
-    type: strong-contradict
+    type: con2
   - from: college-affordability
     to: college-debt
-    type: strong-contradict
+    type: con2
   - from: college-affordability
     to: college-enrollment
-    type: reinforce
+    type: pro1
   - from: college-debt-forgiveness
     to: college-debt
-    type: strong-contradict
+    type: con2
   - from: computing-power
     to: translation-tech
-    type: reinforce
+    type: pro1
   - from: computing-power
     to: xr-metaverse
-    type: reinforce
+    type: pro1
   - from: computing-power
     to: ai-ml
-    type: reinforce
+    type: pro1
   - from: computing-power
     to: collaboration-technology
-    type: reinforce
+    type: pro1
   - from: curriculum-investment
     to: content-creation-tools
-    type: reinforce
+    type: pro1
   - from: cybersecurity
     to: personal-security
-    type: reinforce
+    type: pro1
   - from: extreme-weather
     to: public-health
-    type: contradict
+    type: con1
   - from: food-supply
     to: public-health
-    type: strong-reinforce
+    type: pro2
   - from: fresh-water-supply
     to: public-health
-    type: strong-reinforce
+    type: pro2
   - from: gaming-culture
     to: collaboration-technology
-    type: reinforce
+    type: pro1
   - from: gdp
     to: governmental-education-funding
-    type: strong-reinforce
+    type: pro2
   - from: gdp
     to: poverty
-    type: contradict
+    type: con1
   - from: gdp
     to: job-market
-    type: strong-reinforce
+    type: pro2
   - from: governmental-education-funding
     to: public-k12-enrollment
-    type: strong-reinforce
+    type: pro2
   - from: governmental-education-funding
     to: private-k12-enrollment
-    type: contradict
+    type: con1
   - from: governmental-education-funding
     to: pre-k-funding
-    type: strong-reinforce
+    type: pro2
   - from: governmental-education-funding
     to: teacher-salaries
-    type: reinforce
+    type: pro1
   - from: governmental-education-funding
     to: school-facilities-health
-    type: strong-reinforce
+    type: pro2
   - from: governmental-education-funding
     to: home-schooling
-    type: contradict
+    type: con1
   - from: green-energy-production
     to: air-quality
-    type: strong-reinforce
+    type: pro2
   - from: green-energy-production
     to: climate-change-imperative
-    type: contradict
+    type: con1
   - from: industry-requirements-of-college-degrees
     to: college-enrollment
-    type: strong-reinforce
+    type: pro2
   - from: interest-rates
     to: college-affordability
-    type: contradict
+    type: con1
   - from: interest-rates
     to: college-debt
-    type: strong-reinforce
+    type: pro2
   - from: interest-rates
     to: job-market
-    type: contradict
+    type: con1
   - from: job-market
     to: college-enrollment
-    type: contradict
+    type: con1
   - from: job-market
     to: gdp
-    type: strong-reinforce
+    type: pro2
   - from: job-market
     to: immigration-policies
-    type: reinforce
+    type: pro1
   - from: job-market
     to: industry-requirements-of-college-degrees
-    type: contradict
+    type: con1
   - from: home-schooling
     to: public-k12-enrollment
-    type: contradict
+    type: con1
   - from: home-schooling
     to: private-k12-enrollment
-    type: contradict
+    type: con1
   - from: longevity
     to: population-size
-    type: strong-reinforce
+    type: pro2
   - from: national-debts
     to: interest-rates
-    type: reinforce
+    type: pro1
   - from: network-speed
     to: xr-metaverse
-    type: reinforce
+    type: pro1
   - from: network-speed
     to: translation-tech
-    type: reinforce
+    type: pro1
   - from: network-speed
     to: online-collaboration
-    type: reinforce
+    type: pro1
   - from: network-speed
     to: gaming-culture
-    type: reinforce
+    type: pro1
   - from: network-speed
     to: collaboration-technology
-    type: reinforce
+    type: pro1
   - from: ocean-levels
     to: climate-migration
-    type: strong-reinforce
+    type: pro2
   - from: online-collaboration
     to: cultural-exposure
-    type: reinforce
+    type: pro1
   - from: pandemic-endemic
     to: public-health
-    type: strong-contradict
+    type: con2
   - from: pandemic-endemic
     to: personal-space-sensitivity
-    type: strong-reinforce
+    type: pro2
   - from: pandemic-endemic
     to: personal-security
-    type: contradict
+    type: con1
   - from: personal-space-sensitivity
     to: personal-security
-    type: contradict
+    type: con1
   - from: pollution-levels
     to: public-health
-    type: strong-contradict
+    type: con2
   - from: population-size
     to: personal-security
-    type: contradict
+    type: con1
   - from: population-size
     to: student-teacher-ratio
-    type: contradict
+    type: con1
   - from: poverty
     to: public-k12-enrollment
-    type: reinforce
+    type: pro1
   - from: poverty
     to: public-health
-    type: contradict
+    type: con1
   - from: poverty
     to: civil-wars
-    type: reinforce
+    type: pro1
   - from: wealth-inequality
     to: poverty
-    type: strong-reinforce
+    type: pro2
   - from: fundamentalism
     to: cultism
-    type: reinforce
+    type: pro1
   - from: online-collaboration
     to: interest-based classes
-    type: reinforce
+    type: pro1
   - from: teacher-salaries
     to: teacher-education-enrollment
-    type: strong-reinforce
+    type: pro2
   - from: respect-for-teaching
     to: teacher-education-enrollment
-    type: reinforce
+    type: pro1
   - from: respect-for-teaching
     to: teacher-salaries
-    type: strong-reinforce
+    type: pro2
   - from: computing-power
     to: network-speed
-    type: reinforce
+    type: pro1
   - from: work-life-balance
     to: college-enrollment
-    type: reinforce
+    type: pro1
   - from: cultural-exposure
     to: diversity-vs-segregation
-    type: reinforce
+    type: pro1
   - from: quantum-computing
     to: ai-ml
-    type: strong-reinforce
+    type: pro2
   - from: fundamentalism
     to: authoritarianism
-    type: strong-reinforce
+    type: pro2
   - from: translation-tech
     to: global-communication
-    type: reinforce
+    type: pro1
   - from: network-speed
     to: social-media
-    type: reinforce
+    type: pro1
   - from: content-creation
     to: social-media
-    type: reinforce
+    type: pro1
   - from: translation-tech
     to: cultural-exposure
-    type: reinforce
+    type: pro1
   - from: ai-ml
     to: translation-tech
-    type: strong-reinforce
+    type: pro2
   - from: cultural-exposure
     to: fundamentalism
-    type: strong-contradict
+    type: con2
+  - from: content-creation-tools
+    to: content-creation
+    type: pro2
+  - from: null
+    to: null
+    type: null
+  - from: null
+    to: null
+    type: null
+  - from: null
+    to: null
+    type: null
+  - from: null
+    to: null
+    type: null
+  - from: null
+    to: null
+    type: null
   - from: null
     to: null
     type: null

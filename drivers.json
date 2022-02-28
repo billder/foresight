@@ -474,15 +474,18 @@
   "elements": [
     {
       "id": "ai-learning-assistants",
-      "label": "AI learning assistants"
+      "label": "AI learning assistants",
+      "category": "education"
     },
     {
       "id": "ai-ml",
-      "label": "AI/ML"
+      "label": "AI/ML",
+      "category": "tech"
     },
     {
       "id": "air-quality",
-      "label": "air quality"
+      "label": "air quality",
+      "category": "environment"
     },
     {
       "id": "intellectual-elite",

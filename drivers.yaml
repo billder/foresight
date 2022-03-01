@@ -305,7 +305,7 @@ connections:
     type: null
 elements:
   - id: ideological-divide
-    label: IDEOLOGICAL DIVIDE
+    label: IDEOLOGICAL DIVIDE 2
     category: leverage-point
   - id: ai-learning-assistants
     label: AI learning assistants

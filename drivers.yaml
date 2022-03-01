@@ -304,12 +304,13 @@ connections:
     to: null
     type: null
 elements:
+  - id: ideological-divide
+    label: IDEOLOGICAL DIVIDE
+    type: leverage-point
   - id: ai-learning-assistants
     label: AI learning assistants
-    category: education
   - id: ai-ml
     label: AI/ML
-    category: tech
   - id: air-quality
     label: air quality
     category: environment

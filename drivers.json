@@ -508,14 +508,17 @@
   ],
   "elements": [
     {
+      "id": "ideological-divide",
+      "label": "IDEOLOGICAL DIVIDE",
+      "type": "leverage-point"
+    },
+    {
       "id": "ai-learning-assistants",
-      "label": "AI learning assistants",
-      "category": "education"
+      "label": "AI learning assistants"
     },
     {
       "id": "ai-ml",
-      "label": "AI/ML",
-      "category": "tech"
+      "label": "AI/ML"
     },
     {
       "id": "air-quality",

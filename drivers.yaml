@@ -306,14 +306,13 @@ connections:
 elements:
   - id: ideological-divide
     label: IDEOLOGICAL DIVIDE
-    type: leverage-point
+    category: leverage-point
   - id: ai-learning-assistants
     label: AI learning assistants
   - id: ai-ml
     label: AI/ML
   - id: air-quality
     label: air quality
-    category: environment
   - id: intellectual-elite
     label: attitudes toward intellectual elite
   - id: authoritarianism

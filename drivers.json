@@ -510,7 +510,7 @@
     {
       "id": "ideological-divide",
       "label": "IDEOLOGICAL DIVIDE",
-      "type": "leverage-point"
+      "category": "leverage-point"
     },
     {
       "id": "ai-learning-assistants",
@@ -522,8 +522,7 @@
     },
     {
       "id": "air-quality",
-      "label": "air quality",
-      "category": "environment"
+      "label": "air quality"
     },
     {
       "id": "intellectual-elite",

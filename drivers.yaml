@@ -303,21 +303,51 @@ connections:
   - from: cultural-exposure
     to: ideological-divide
     type: leverage
+  - from: content-creation-tools
+    to: remix-culture
+    type: leverage
+  - from: content-creation
+    to: remix-culture
+    type: leverage
   - from: social-media
-    to: assembly-culture
+    to: remix-culture
     type: leverage
   - from: ai-learning-assistants
     to: personal-daemons
     type: leverage
+  - from: human-brain-interface
+    to: personal-daemons
+    type: leverage  
+  - from: ai-ml
+    to: next-tech-leap
+    type: leverage  
+  - from: ai-learning-assistants
+    to: next-tech-leap
+    type: leverage  
+  - from: quantum-computing
+    to: next-tech-leap
+    type: leverage  
+  - from: human-brain-interface
+    to: next-tech-leap
+    type: leverage  
+  - from: 
+    to: next-tech-leap
+    type: leverage  
+  - from: 
+    to: next-tech-leap
+    type: leverage  
 elements:
   - id: ideological-divide
     label: IDEOLOGICAL DIVIDE
     category: leverage-point
-  - id: assembly-culture
-    label: ASSEMBLY CULTURE
+  - id: remix-culture
+    label: REMIX CULTURE
     category: leverage-point
   - id: personal-daemons
     label: PERSONAL DAEMONS
+    category: leverage-point
+  - id: next-tech-leap
+    label: NEXT TECH LEAP
     category: leverage-point
   - id: ai-learning-assistants
     label: AI learning assistants
@@ -329,8 +359,6 @@ elements:
     label: attitudes toward intellectual elite
   - id: authoritarianism
     label: authoritarianism
-  - id: govt-head-age
-    label: governmental leader age
   - id: civil-wars
     label: civil wars
   - id: climate-change-imperative

@@ -291,21 +291,21 @@ connections:
   - from: population-size
     to: cultural-exposure
     type: pro1
-  - from: null
-    to: null
-    type: null
-  - from: null
-    to: null
-    type: null
-  - from: null
-    to: null
-    type: null
-  - from: null
-    to: null
-    type: null
+  - from: xenophobia
+    to: ideological-divide
+    type: leverage
+  - from: fundamentalism
+    to: ideological-divide
+    type: leverage
+  - from: authoritarianism
+    to: ideological-divide
+    type: leverage
+  - from: cultural exposure
+    to: ideological-divide
+    type: leverage
 elements:
   - id: ideological-divide
-    label: IDEOLOGICAL DIVIDE 3
+    label: IDEOLOGICAL DIVIDE
     category: leverage-point
   - id: ai-learning-assistants
     label: AI learning assistants

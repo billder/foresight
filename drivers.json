@@ -486,30 +486,30 @@
       "type": "pro1"
     },
     {
-      "from": null,
-      "to": null,
-      "type": null
+      "from": "xenophobia",
+      "to": "ideological-divide",
+      "type": "leverage"
     },
     {
-      "from": null,
-      "to": null,
-      "type": null
+      "from": "fundamentalism",
+      "to": "ideological-divide",
+      "type": "leverage"
     },
     {
-      "from": null,
-      "to": null,
-      "type": null
+      "from": "authoritarianism",
+      "to": "ideological-divide",
+      "type": "leverage"
     },
     {
-      "from": null,
-      "to": null,
-      "type": null
+      "from": "cultural exposure",
+      "to": "ideological-divide",
+      "type": "leverage"
     }
   ],
   "elements": [
     {
       "id": "ideological-divide",
-      "label": "IDEOLOGICAL DIVIDE 3",
+      "label": "IDEOLOGICAL DIVIDE",
       "category": "leverage-point"
     },
     {

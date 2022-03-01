@@ -509,6 +509,11 @@
       "from": "social-media",
       "to": "assembly-culture",
       "type": "leverage"
+    },
+    {
+      "from": "ai-learning-assistants",
+      "to": "personal-daemons",
+      "type": "leverage"
     }
   ],
   "elements": [
@@ -520,6 +525,11 @@
     {
       "id": "assembly-culture",
       "label": "ASSEMBLY CULTURE",
+      "category": "leverage-point"
+    },
+    {
+      "id": "personal-daemons",
+      "label": "PERSONAL DAEMONS",
       "category": "leverage-point"
     },
     {

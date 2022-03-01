@@ -300,12 +300,18 @@ connections:
   - from: authoritarianism
     to: ideological-divide
     type: leverage
-  - from: cultural exposure
+  - from: cultural-exposure
     to: ideological-divide
+    type: leverage
+  - from: social-media
+    to: assembly-culture
     type: leverage
 elements:
   - id: ideological-divide
     label: IDEOLOGICAL DIVIDE
+    category: leverage-point
+  - id: assembly-culture
+    label: ASSEMBLY CULTURE
     category: leverage-point
   - id: ai-learning-assistants
     label: AI learning assistants

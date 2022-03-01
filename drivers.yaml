@@ -17,7 +17,7 @@ connections:
     type: pro1
   - from: air-quality
     to: public-health
-    type: pro2
+    type: leverage
   - from: authoritarianism
     to: gender-equality
     type: con1
@@ -65,13 +65,13 @@ connections:
     type: pro1
   - from: extreme-weather
     to: public-health
-    type: con1
+    type: leverage
   - from: food-supply
     to: public-health
-    type: pro2
+    type: leverage
   - from: fresh-water-supply
     to: public-health
-    type: pro2
+    type: leverage
   - from: gaming-culture
     to: collaboration-technology
     type: pro1
@@ -167,7 +167,7 @@ connections:
     type: pro1
   - from: pandemic-endemic
     to: public-health
-    type: con2
+    type: leverage
   - from: pandemic-endemic
     to: personal-space-sensitivity
     type: pro2
@@ -179,7 +179,7 @@ connections:
     type: con1
   - from: pollution-levels
     to: public-health
-    type: con2
+    type: leverage
   - from: population-size
     to: personal-security
     type: con1
@@ -191,7 +191,7 @@ connections:
     type: pro1
   - from: poverty
     to: public-health
-    type: con1
+    type: leverage
   - from: poverty
     to: civil-wars
     type: pro1
@@ -251,13 +251,13 @@ connections:
     type: pro2
   - from: public-health
     to: dystopia
-    type: con1
+    type: leverage
   - from: public-health
     to: longevity
-    type: pro2
+    type: leverage
   - from: pandemic-endemic
     to: public-health
-    type: con2
+    type: leverage
   - from: fundamentalism
     to: intellectual-elite
     type: con1
@@ -292,6 +292,9 @@ connections:
     to: cultural-exposure
     type: pro1
   - from: xenophobia
+    to: ideological-divide
+    type: leverage
+  - from: cultism
     to: ideological-divide
     type: leverage
   - from: fundamentalism
@@ -335,7 +338,7 @@ connections:
     type: leverage  
   - from: 
     to: next-tech-leap
-    type: leverage  
+    type: leverage
 elements:
   - id: ideological-divide
     label: IDEOLOGICAL DIVIDE
@@ -348,6 +351,9 @@ elements:
     category: leverage-point
   - id: next-tech-leap
     label: NEXT TECH LEAP
+    category: leverage-point
+  - id: public-health
+    label: PUBLIC HEALTH
     category: leverage-point
   - id: ai-learning-assistants
     label: AI learning assistants
@@ -465,8 +471,6 @@ elements:
     label: public K-12 enrollment
   - id: dystopia
     label: dystopia
-  - id: public-health
-    label: public health
   - id: quantum-computing
     label: quantum computing
   - id: racism

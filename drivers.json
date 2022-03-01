@@ -28,7 +28,7 @@
     {
       "from": "air-quality",
       "to": "public-health",
-      "type": "pro2"
+      "type": "leverage"
     },
     {
       "from": "authoritarianism",
@@ -108,17 +108,17 @@
     {
       "from": "extreme-weather",
       "to": "public-health",
-      "type": "con1"
+      "type": "leverage"
     },
     {
       "from": "food-supply",
       "to": "public-health",
-      "type": "pro2"
+      "type": "leverage"
     },
     {
       "from": "fresh-water-supply",
       "to": "public-health",
-      "type": "pro2"
+      "type": "leverage"
     },
     {
       "from": "gaming-culture",
@@ -278,7 +278,7 @@
     {
       "from": "pandemic-endemic",
       "to": "public-health",
-      "type": "con2"
+      "type": "leverage"
     },
     {
       "from": "pandemic-endemic",
@@ -298,7 +298,7 @@
     {
       "from": "pollution-levels",
       "to": "public-health",
-      "type": "con2"
+      "type": "leverage"
     },
     {
       "from": "population-size",
@@ -318,7 +318,7 @@
     {
       "from": "poverty",
       "to": "public-health",
-      "type": "con1"
+      "type": "leverage"
     },
     {
       "from": "poverty",
@@ -418,17 +418,17 @@
     {
       "from": "public-health",
       "to": "dystopia",
-      "type": "con1"
+      "type": "leverage"
     },
     {
       "from": "public-health",
       "to": "longevity",
-      "type": "pro2"
+      "type": "leverage"
     },
     {
       "from": "pandemic-endemic",
       "to": "public-health",
-      "type": "con2"
+      "type": "leverage"
     },
     {
       "from": "fundamentalism",
@@ -487,6 +487,11 @@
     },
     {
       "from": "xenophobia",
+      "to": "ideological-divide",
+      "type": "leverage"
+    },
+    {
+      "from": "cultism",
       "to": "ideological-divide",
       "type": "leverage"
     },
@@ -580,6 +585,11 @@
     {
       "id": "next-tech-leap",
       "label": "NEXT TECH LEAP",
+      "category": "leverage-point"
+    },
+    {
+      "id": "public-health",
+      "label": "PUBLIC HEALTH",
       "category": "leverage-point"
     },
     {
@@ -813,10 +823,6 @@
     {
       "id": "dystopia",
       "label": "dystopia"
-    },
-    {
-      "id": "public-health",
-      "label": "public health"
     },
     {
       "id": "quantum-computing",

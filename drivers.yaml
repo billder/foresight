@@ -1,513 +1,780 @@
 ---
 connections:
+
   - from: ai-ml
     to: ai-learning-assistants
     type: pro2
+
   - from: computing-power
     to: ai-ml
     type: pro2
+
   - from: ai-ml
     to: collaboration-technology
     type: pro1
+
   - from: ai-ml
     to: search
     type: pro2
+
   - from: ai-ml
     to: cybersecurity
     type: pro1
+
   - from: air-quality
     to: public-health
     type: leverage
+
   - from: authoritarianism
     to: gender-equality
     type: con1
+
   - from: authoritarianism
     to: free-speech
     type: con1
+
   - from: climate-migration
     to: college-enrollment
     type: pro1
+
   - from: collaboration-technology
     to: online-collaboration
     type: pro2
+
   - from: cultural-exposure
     to: xenophobia
     type: con2
+
   - from: cultural-exposure
     to: racism
     type: con2
+
   - from: college-affordability
     to: college-debt
     type: con2
+
   - from: college-affordability
     to: college-enrollment
     type: pro1
+
   - from: college-debt-forgiveness
     to: college-debt
     type: con2
+
   - from: computing-power
     to: translation-tech
     type: pro1
+
   - from: computing-power
     to: xr-metaverse
     type: pro1
+
   - from: computing-power
     to: ai-ml
     type: pro1
+
   - from: computing-power
     to: collaboration-technology
     type: pro1
+
   - from: curriculum-investment
     to: content-creation-tools
     type: pro1
+
   - from: cybersecurity
     to: personal-security
     type: pro1
+
   - from: extreme-weather
     to: public-health
     type: leverage
+
   - from: food-supply
     to: public-health
     type: leverage
+
   - from: fresh-water-supply
     to: public-health
     type: leverage
+
   - from: gaming-culture
     to: collaboration-technology
     type: pro1
+
   - from: gdp
     to: governmental-education-funding
     type: pro2
+
   - from: gdp
     to: poverty
     type: con1
+
   - from: gdp
     to: job-market
     type: pro2
+
   - from: governmental-education-funding
     to: public-k12-enrollment
     type: pro2
+
   - from: governmental-education-funding
     to: private-k12-enrollment
     type: con1
+
   - from: governmental-education-funding
     to: pre-k-funding
     type: pro2
+
   - from: governmental-education-funding
     to: teacher-salaries
     type: pro1
+
   - from: governmental-education-funding
     to: school-facilities-health
     type: pro2
+
   - from: governmental-education-funding
     to: home-schooling
     type: con1
+
   - from: green-energy-production
     to: air-quality
     type: pro2
+
   - from: green-energy-production
     to: climate-change-imperative
     type: con1
+
   - from: industry-requirements-of-college-degrees
     to: college-enrollment
     type: pro2
+
   - from: interest-rates
     to: college-affordability
     type: con1
+
   - from: interest-rates
     to: college-debt
     type: pro2
+
   - from: interest-rates
     to: job-market
     type: con1
+
   - from: job-market
     to: college-enrollment
     type: con1
+
   - from: job-market
     to: gdp
     type: pro2
+
   - from: job-market
     to: immigration-policies
     type: pro1
+
   - from: job-market
     to: industry-requirements-of-college-degrees
     type: con1
+
   - from: home-schooling
     to: public-k12-enrollment
     type: con1
+
   - from: home-schooling
     to: private-k12-enrollment
     type: con1
+
   - from: longevity
     to: population-size
     type: pro2
+
   - from: national-debts
     to: interest-rates
     type: pro1
+
   - from: network-speed
     to: xr-metaverse
     type: pro1
+
   - from: network-speed
     to: translation-tech
     type: pro1
+
   - from: network-speed
     to: online-collaboration
     type: pro1
+
   - from: network-speed
     to: gaming-culture
     type: pro1
+
   - from: network-speed
     to: collaboration-technology
     type: pro1
+
   - from: ocean-levels
     to: climate-migration
     type: pro2
+
   - from: online-collaboration
     to: cultural-exposure
     type: pro1
+
   - from: pandemic-endemic
     to: public-health
     type: leverage
+
   - from: pandemic-endemic
     to: personal-space-sensitivity
     type: pro2
+
   - from: pandemic-endemic
     to: personal-security
     type: con1
+
   - from: personal-space-sensitivity
     to: personal-security
     type: con1
+
   - from: pollution-levels
     to: public-health
     type: leverage
+
   - from: population-size
     to: personal-security
     type: con1
+
   - from: population-size
     to: student-teacher-ratio
     type: con1
+
   - from: poverty
     to: public-k12-enrollment
     type: pro1
+
   - from: poverty
     to: public-health
     type: leverage
+
   - from: poverty
     to: civil-wars
     type: pro1
+
   - from: wealth-inequality
     to: poverty
     type: pro2
+
   - from: fundamentalism
     to: cultism
     type: pro1
+
   - from: online-collaboration
     to: interest-based classes
     type: pro1
+
   - from: teacher-salaries
     to: teacher-education-enrollment
     type: pro2
+
   - from: respect-for-teaching
     to: teacher-education-enrollment
     type: pro1
+
   - from: respect-for-teaching
     to: teacher-salaries
     type: pro2
+
   - from: computing-power
     to: network-speed
     type: pro1
+
   - from: work-life-balance
     to: college-enrollment
     type: pro1
+
   - from: cultural-exposure
     to: diversity-vs-segregation
     type: pro1
+
   - from: quantum-computing
     to: ai-ml
     type: pro2
+
   - from: fundamentalism
     to: authoritarianism
     type: pro2
+
   - from: translation-tech
     to: global-communication
     type: pro1
+
   - from: network-speed
     to: social-media
     type: pro1
+
   - from: content-creation
     to: social-media
     type: pro1
+
   - from: translation-tech
     to: cultural-exposure
     type: pro1
+
   - from: ai-ml
     to: translation-tech
     type: pro2
+
   - from: cultural-exposure
     to: fundamentalism
     type: con2
+
   - from: content-creation-tools
     to: content-creation
     type: pro2
+
   - from: public-health
     to: dystopia
     type: leverage
+
   - from: public-health
     to: longevity
     type: leverage
+
   - from: pandemic-endemic
     to: public-health
     type: leverage
+
   - from: fundamentalism
     to: intellectual-elite
     type: con1
+
   - from: student-teacher-ratio
     to: public-k12-enrollment
     type: pro1
+
   - from: xenophobia
     to: immigration-policies
     type: con1
+
   - from: racism
     to: xenophobia
     type: pro2
+
   - from: free-speech
     to: global-communication
     type: pro1
+
   - from: active-war
     to: dystopia
     type: pro1
+
   - from: job-market
     to: holistic-vs-skills
     type: pro1
+
   - from: visual-language
     to: global-communication
     type: pro1
+
   - from: social-media
     to: visual-language
     type: pro1
+
   - from: ocean-levels
     to: climate-change-imperative
     type: pro2
+
   - from: population-size
     to: cultural-exposure
     type: pro1
+
   - from: xenophobia
     to: ideological-divide
     type: leverage
+
   - from: cultism
     to: ideological-divide
     type: leverage
+
   - from: fundamentalism
     to: ideological-divide
     type: leverage
+
   - from: authoritarianism
     to: ideological-divide
     type: leverage
+
   - from: cultural-exposure
     to: ideological-divide
     type: leverage
+
   - from: content-creation-tools
     to: remix-culture
     type: leverage
+
   - from: content-creation
     to: remix-culture
     type: leverage
+
   - from: social-media
     to: remix-culture
     type: leverage
+
   - from: ai-learning-assistants
     to: personal-daemons
     type: leverage
+
   - from: human-brain-interface
     to: personal-daemons
     type: leverage  
+
   - from: ai-ml
     to: next-tech-leap
     type: leverage  
+
   - from: ai-learning-assistants
     to: next-tech-leap
     type: leverage  
+
   - from: quantum-computing
     to: next-tech-leap
     type: leverage  
+
   - from: human-brain-interface
     to: next-tech-leap
     type: leverage  
+
   - from: 
     to: next-tech-leap
     type: leverage  
+
   - from: 
     to: next-tech-leap
     type: leverage
+
 elements:
+
   - id: ideological-divide
     label: IDEOLOGICAL DIVIDE
     category: leverage-point
+
   - id: remix-culture
     label: REMIX CULTURE
     category: leverage-point
+
   - id: personal-daemons
     label: PERSONAL DAEMONS
     category: leverage-point
+
   - id: next-tech-leap
     label: NEXT TECH LEAP
     category: leverage-point
+
   - id: public-health
     label: PUBLIC HEALTH
     category: leverage-point
+
   - id: ai-learning-assistants
     label: AI learning assistants
+    category: technology
+
   - id: ai-ml
     label: AI/ML
+    category: technology
+
   - id: air-quality
     label: air quality
+    category: environment
+
   - id: intellectual-elite
     label: attitudes toward intellectual elite
+    category: social
+
   - id: authoritarianism
     label: authoritarianism
+    category: political
+
   - id: civil-wars
     label: civil wars
+    category: political
+
   - id: climate-change-imperative
     label: climate change imperative
+    category: environmental
+
   - id: climate-migration
     label: climate migration
+    category: technology
+
   - id: collaboration-technology
     label: collaboration technology
+    category: technology
+
   - id: college-affordability
     label: college affordability
+    category: economic
+
   - id: college-debt
     label: college debt
+    category: economic
+
   - id: college-debt-forgiveness
     label: college debt forgiveness
+    category: economic
+
   - id: college-enrollment
     label: college enrollment
+    category: social
+
   - id: computing-power
     label: computing power
+    category: technology
+
   - id: content-creation
     label: content creation
+    category: social
+
   - id: content-creation-tools
     label: content creation tools
+    category: technology
+
   - id: corporate-education-funding
     label: corporate education funding
-  - id: curriculum-investment
-    label: curriculum investment
+    category: political
+
   - id: cybersecurity
     label: cybersecurity
+    category: technology
+
   - id: data-storage
     label: data storage
+    category: technology
+
   - id: diversity-vs-segregation
     label: diversity vs segregation
+    category: social
+
   - id: visual-language
     label: visual language
+    category: social
+
   - id: cultural-exposure
     label: cultural exposure
+    category: social
+
   - id: extreme-weather
     label: extreme weather
+    category: environmental
+
   - id: food-supply
     label: food supply
+    category: environmental
+
   - id: free-speech
     label: free speech
+    category: social
+
   - id: fresh-water-supply
     label: fresh water supply
+    category: environmental
+
   - id: gaming-culture
     label: gaming culture
+    category: social
+
   - id: gdp
     label: GDP
+    category: economic
+
   - id: gender-equality
     label: gender equality
+    category: social
+
   - id: global-communication
     label: global communication
+    category: social
+
   - id: governmental-education-funding
     label: governmental education funding
+    category: political
+
   - id: green-energy-production
     label: green energy production
+    category: environmental
+
   - id: interest-based-classes
     label: interest-based classes
+    category: social
+
   - id: human-brain-interfaces
     label: human brain interfaces
+    category: technology
+
   - id: immigration-policies
     label: immigration policies
+    category: political
+
   - id: industry-requirements-of-college-degrees
     label: industry requirements of college degrees
+    category: economic
+
   - id: holistic-vs-skills
     label: holistic learning vs skills acquisition
+    category: social
+
   - id: home-schooling
     label: home schooling
+    category: social
+
   - id: interest-rates
     label: interest rates
+    category: economic
+
   - id: job-market
     label: job market
+    category: economic
+
   - id: longevity
     label: longevity
+    category: social
+
   - id: national-debts
     label: national debts
+    category: economic
+
   - id: network-speed
     label: network speed
+    category: technology
+
   - id: ocean-levels
     label: ocean levels
+    category: environmental
+
   - id: online-collaboration
     label: online collaboration
+    category: social
+
   - id: pandemic-endemic
     label: pandemic/endemic
+    category: environmental
+
   - id: parental-income-levels
     label: parental income levels
-  - id: parental-involvement-in-education
-    label: parental involvement in education
+    category: economic
+
   - id: personal-security
     label: personal security
+    category: social
+
   - id: personal-space-sensitivity
     label: personal space sensitivity
+    category: social
+
   - id: pollution-levels
     label: pollution levels
+    category: environmental
+
   - id: population-size
     label: population size
+    category: environmental
+
   - id: poverty
     label: poverty
+    category: social
+
   - id: pre-k-funding
     label: pre-K funding
+    category: economic
+
   - id: private-k12-enrollment
     label: private K-12 enrollment
+    category: social
+
   - id: public-k12-enrollment
     label: public K-12 enrollment
+    category: social
+
   - id: dystopia
     label: dystopia
+    category: social
+
   - id: quantum-computing
     label: quantum computing
+    category: technology
+
   - id: racism
     label: racism
+    category: social
+
   - id: cultism
     label: cultism
+    category: social
+
   - id: fundamentalism
     label: fundamentalism
+    category: social
+
   - id: respect-for-teaching
     label: respect for teaching
+    category: social
+
   - id: search
     label: search
+    category: technology
+
   - id: school-facilities-health
     label: school facilities health
+    category: economic
+
   - id: social-media
     label: social media
+    category: social
+
   - id: teacher-education-enrollment
     label: teacher education enrollment
+    category: social
+
   - id: teacher-salaries
     label: teacher salaries
+    category: economic
+
   - id: student-teacher-ratio
     label: student:teacher ratio
+    category: social
+
   - id: tech-affordability
     label: tech affordability
+    category: technology
+
   - id: tech-monopolies
     label: tech monopolies
+    category: technology
+
   - id: translation-tech
     label: translation tech
+    category: technology
+
   - id: active-war
     label: active war
+    category: political
+
   - id: wealth-inequality
     label: wealth inequality
+    category: economic
+
   - id: work-life-balance
     label: work life balance
+    category: social
+
   - id: xenophobia
     label: xenophobia
+    category: social
+
   - id: xr-metaverse
     label: XR/metaverse
+    category: technology
+
   - id: xr-affordability
     label: XR/metaverse affordability
+    category: technology

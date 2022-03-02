@@ -594,315 +594,383 @@
     },
     {
       "id": "ai-learning-assistants",
-      "label": "AI learning assistants"
+      "label": "AI learning assistants",
+      "category": "technology"
     },
     {
       "id": "ai-ml",
-      "label": "AI/ML"
+      "label": "AI/ML",
+      "category": "technology"
     },
     {
       "id": "air-quality",
-      "label": "air quality"
+      "label": "air quality",
+      "category": "environment"
     },
     {
       "id": "intellectual-elite",
-      "label": "attitudes toward intellectual elite"
+      "label": "attitudes toward intellectual elite",
+      "category": "social"
     },
     {
       "id": "authoritarianism",
-      "label": "authoritarianism"
+      "label": "authoritarianism",
+      "category": "political"
     },
     {
       "id": "civil-wars",
-      "label": "civil wars"
+      "label": "civil wars",
+      "category": "political"
     },
     {
       "id": "climate-change-imperative",
-      "label": "climate change imperative"
+      "label": "climate change imperative",
+      "category": "environmental"
     },
     {
       "id": "climate-migration",
-      "label": "climate migration"
+      "label": "climate migration",
+      "category": "technology"
     },
     {
       "id": "collaboration-technology",
-      "label": "collaboration technology"
+      "label": "collaboration technology",
+      "category": "technology"
     },
     {
       "id": "college-affordability",
-      "label": "college affordability"
+      "label": "college affordability",
+      "category": "economic"
     },
     {
       "id": "college-debt",
-      "label": "college debt"
+      "label": "college debt",
+      "category": "economic"
     },
     {
       "id": "college-debt-forgiveness",
-      "label": "college debt forgiveness"
+      "label": "college debt forgiveness",
+      "category": "economic"
     },
     {
       "id": "college-enrollment",
-      "label": "college enrollment"
+      "label": "college enrollment",
+      "category": "social"
     },
     {
       "id": "computing-power",
-      "label": "computing power"
+      "label": "computing power",
+      "category": "technology"
     },
     {
       "id": "content-creation",
-      "label": "content creation"
+      "label": "content creation",
+      "category": "social"
     },
     {
       "id": "content-creation-tools",
-      "label": "content creation tools"
+      "label": "content creation tools",
+      "category": "technology"
     },
     {
       "id": "corporate-education-funding",
-      "label": "corporate education funding"
-    },
-    {
-      "id": "curriculum-investment",
-      "label": "curriculum investment"
+      "label": "corporate education funding",
+      "category": "political"
     },
     {
       "id": "cybersecurity",
-      "label": "cybersecurity"
+      "label": "cybersecurity",
+      "category": "technology"
     },
     {
       "id": "data-storage",
-      "label": "data storage"
+      "label": "data storage",
+      "category": "technology"
     },
     {
       "id": "diversity-vs-segregation",
-      "label": "diversity vs segregation"
+      "label": "diversity vs segregation",
+      "category": "social"
     },
     {
       "id": "visual-language",
-      "label": "visual language"
+      "label": "visual language",
+      "category": "social"
     },
     {
       "id": "cultural-exposure",
-      "label": "cultural exposure"
+      "label": "cultural exposure",
+      "category": "social"
     },
     {
       "id": "extreme-weather",
-      "label": "extreme weather"
+      "label": "extreme weather",
+      "category": "environmental"
     },
     {
       "id": "food-supply",
-      "label": "food supply"
+      "label": "food supply",
+      "category": "environmental"
     },
     {
       "id": "free-speech",
-      "label": "free speech"
+      "label": "free speech",
+      "category": "social"
     },
     {
       "id": "fresh-water-supply",
-      "label": "fresh water supply"
+      "label": "fresh water supply",
+      "category": "environmental"
     },
     {
       "id": "gaming-culture",
-      "label": "gaming culture"
+      "label": "gaming culture",
+      "category": "social"
     },
     {
       "id": "gdp",
-      "label": "GDP"
+      "label": "GDP",
+      "category": "economic"
     },
     {
       "id": "gender-equality",
-      "label": "gender equality"
+      "label": "gender equality",
+      "category": "social"
     },
     {
       "id": "global-communication",
-      "label": "global communication"
+      "label": "global communication",
+      "category": "social"
     },
     {
       "id": "governmental-education-funding",
-      "label": "governmental education funding"
+      "label": "governmental education funding",
+      "category": "political"
     },
     {
       "id": "green-energy-production",
-      "label": "green energy production"
+      "label": "green energy production",
+      "category": "environmental"
     },
     {
       "id": "interest-based-classes",
-      "label": "interest-based classes"
+      "label": "interest-based classes",
+      "category": "social"
     },
     {
       "id": "human-brain-interfaces",
-      "label": "human brain interfaces"
+      "label": "human brain interfaces",
+      "category": "technology"
     },
     {
       "id": "immigration-policies",
-      "label": "immigration policies"
+      "label": "immigration policies",
+      "category": "political"
     },
     {
       "id": "industry-requirements-of-college-degrees",
-      "label": "industry requirements of college degrees"
+      "label": "industry requirements of college degrees",
+      "category": "economic"
     },
     {
       "id": "holistic-vs-skills",
-      "label": "holistic learning vs skills acquisition"
+      "label": "holistic learning vs skills acquisition",
+      "category": "social"
     },
     {
       "id": "home-schooling",
-      "label": "home schooling"
+      "label": "home schooling",
+      "category": "social"
     },
     {
       "id": "interest-rates",
-      "label": "interest rates"
+      "label": "interest rates",
+      "category": "economic"
     },
     {
       "id": "job-market",
-      "label": "job market"
+      "label": "job market",
+      "category": "economic"
     },
     {
       "id": "longevity",
-      "label": "longevity"
+      "label": "longevity",
+      "category": "social"
     },
     {
       "id": "national-debts",
-      "label": "national debts"
+      "label": "national debts",
+      "category": "economic"
     },
     {
       "id": "network-speed",
-      "label": "network speed"
+      "label": "network speed",
+      "category": "technology"
     },
     {
       "id": "ocean-levels",
-      "label": "ocean levels"
+      "label": "ocean levels",
+      "category": "environmental"
     },
     {
       "id": "online-collaboration",
-      "label": "online collaboration"
+      "label": "online collaboration",
+      "category": "social"
     },
     {
       "id": "pandemic-endemic",
-      "label": "pandemic/endemic"
+      "label": "pandemic/endemic",
+      "category": "environmental"
     },
     {
       "id": "parental-income-levels",
-      "label": "parental income levels"
-    },
-    {
-      "id": "parental-involvement-in-education",
-      "label": "parental involvement in education"
+      "label": "parental income levels",
+      "category": "economic"
     },
     {
       "id": "personal-security",
-      "label": "personal security"
+      "label": "personal security",
+      "category": "social"
     },
     {
       "id": "personal-space-sensitivity",
-      "label": "personal space sensitivity"
+      "label": "personal space sensitivity",
+      "category": "social"
     },
     {
       "id": "pollution-levels",
-      "label": "pollution levels"
+      "label": "pollution levels",
+      "category": "environmental"
     },
     {
       "id": "population-size",
-      "label": "population size"
+      "label": "population size",
+      "category": "environmental"
     },
     {
       "id": "poverty",
-      "label": "poverty"
+      "label": "poverty",
+      "category": "social"
     },
     {
       "id": "pre-k-funding",
-      "label": "pre-K funding"
+      "label": "pre-K funding",
+      "category": "economic"
     },
     {
       "id": "private-k12-enrollment",
-      "label": "private K-12 enrollment"
+      "label": "private K-12 enrollment",
+      "category": "social"
     },
     {
       "id": "public-k12-enrollment",
-      "label": "public K-12 enrollment"
+      "label": "public K-12 enrollment",
+      "category": "social"
     },
     {
       "id": "dystopia",
-      "label": "dystopia"
+      "label": "dystopia",
+      "category": "social"
     },
     {
       "id": "quantum-computing",
-      "label": "quantum computing"
+      "label": "quantum computing",
+      "category": "technology"
     },
     {
       "id": "racism",
-      "label": "racism"
+      "label": "racism",
+      "category": "social"
     },
     {
       "id": "cultism",
-      "label": "cultism"
+      "label": "cultism",
+      "category": "social"
     },
     {
       "id": "fundamentalism",
-      "label": "fundamentalism"
+      "label": "fundamentalism",
+      "category": "social"
     },
     {
       "id": "respect-for-teaching",
-      "label": "respect for teaching"
+      "label": "respect for teaching",
+      "category": "social"
     },
     {
       "id": "search",
-      "label": "search"
+      "label": "search",
+      "category": "technology"
     },
     {
       "id": "school-facilities-health",
-      "label": "school facilities health"
+      "label": "school facilities health",
+      "category": "economic"
     },
     {
       "id": "social-media",
-      "label": "social media"
+      "label": "social media",
+      "category": "social"
     },
     {
       "id": "teacher-education-enrollment",
-      "label": "teacher education enrollment"
+      "label": "teacher education enrollment",
+      "category": "social"
     },
     {
       "id": "teacher-salaries",
-      "label": "teacher salaries"
+      "label": "teacher salaries",
+      "category": "economic"
     },
     {
       "id": "student-teacher-ratio",
-      "label": "student:teacher ratio"
+      "label": "student:teacher ratio",
+      "category": "social"
     },
     {
       "id": "tech-affordability",
-      "label": "tech affordability"
+      "label": "tech affordability",
+      "category": "technology"
     },
     {
       "id": "tech-monopolies",
-      "label": "tech monopolies"
+      "label": "tech monopolies",
+      "category": "technology"
     },
     {
       "id": "translation-tech",
-      "label": "translation tech"
+      "label": "translation tech",
+      "category": "technology"
     },
     {
       "id": "active-war",
-      "label": "active war"
+      "label": "active war",
+      "category": "political"
     },
     {
       "id": "wealth-inequality",
-      "label": "wealth inequality"
+      "label": "wealth inequality",
+      "category": "economic"
     },
     {
       "id": "work-life-balance",
-      "label": "work life balance"
+      "label": "work life balance",
+      "category": "social"
     },
     {
       "id": "xenophobia",
-      "label": "xenophobia"
+      "label": "xenophobia",
+      "category": "social"
     },
     {
       "id": "xr-metaverse",
-      "label": "XR/metaverse"
+      "label": "XR/metaverse",
+      "category": "technology"
     },
     {
       "id": "xr-affordability",
-      "label": "XR/metaverse affordability"
+      "label": "XR/metaverse affordability",
+      "category": "technology"
     }
   ]
 }

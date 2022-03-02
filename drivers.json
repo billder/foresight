@@ -602,12 +602,12 @@
     },
     {
       "from": "ai-learning-assistants",
-      "to": "personal-daemons",
+      "to": "neurodaemons",
       "type": "leverage"
     },
     {
       "from": "neural-interface",
-      "to": "personal-daemons",
+      "to": "neurodaemons",
       "type": "leverage"
     },
     {
@@ -726,6 +726,11 @@
       "type": "leverage"
     },
     {
+      "from": "ondemand-learning",
+      "to": "neurodaemons",
+      "type": "leverage"
+    },
+    {
       "from": "create-by-assembly",
       "to": "skimming",
       "type": "leverage"
@@ -763,8 +768,8 @@
       "category": "leverage-point"
     },
     {
-      "id": "personal-daemons",
-      "label": "PERSONAL DAEMONS",
+      "id": "neurodaemons",
+      "label": "NEURODAEMONS",
       "category": "leverage-point"
     },
     {

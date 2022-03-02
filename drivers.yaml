@@ -482,11 +482,11 @@ connections:
     type: leverage
 
   - from: ai-learning-assistants
-    to: personal-daemons
+    to: neurodaemons
     type: leverage
 
   - from: neural-interface
-    to: personal-daemons
+    to: neurodaemons
     type: leverage  
 
   - from: ai-ml
@@ -581,6 +581,10 @@ connections:
     to: skimming
     type: leverage
 
+  - from: ondemand-learning
+    to: neurodaemons
+    type: leverage
+
   - from: create-by-assembly
     to: skimming
     type: leverage
@@ -611,8 +615,8 @@ elements:
     label: REMIX CULTURE
     category: leverage-point
 
-  - id: personal-daemons
-    label: PERSONAL DAEMONS
+  - id: neurodaemons
+    label: NEURODAEMONS
     category: leverage-point
 
   - id: acceleration

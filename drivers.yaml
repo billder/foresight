@@ -445,6 +445,10 @@ connections:
     to: ondemand-learning
     type: pro2
 
+  - from: job-market
+    to: job-hopping
+    type: pro2
+
   - from: interest-based-learning
     to: education
     type: leverage
@@ -569,6 +573,34 @@ connections:
     to: environment
     type: leverage
 
+  - from: interest-based-learning
+    to: skimming
+    type: leverage
+
+  - from: ondemand-learning
+    to: skimming
+    type: leverage
+
+  - from: create-by-assembly
+    to: skimming
+    type: leverage
+
+  - from: job-hopping
+    to: skimming
+    type: leverage
+
+  - from: job-hopping
+    to: acceleration
+    type: leverage
+
+  - from: 
+    to: skimming
+    type: leverage
+
+  - from: 
+    to: skimming
+    type: leverage
+
 elements:
 
   - id: ideological-divide
@@ -585,6 +617,10 @@ elements:
 
   - id: acceleration
     label: ACCELERATION
+    category: leverage-point
+
+  - id: skimming
+    label: SKIMMING
     category: leverage-point
 
   - id: public-health
@@ -674,6 +710,10 @@ elements:
   - id: visual-language
     label: visual language
     category: social
+
+  - id: job-hopping
+    label: job hopping
+    category: economy
 
   - id: cultural-exposure
     label: cultural exposure

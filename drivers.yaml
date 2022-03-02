@@ -681,6 +681,18 @@ connections:
     to: social-remix
     type: pro3
 
+  - from: quantum-computing
+    to: quantum-values
+    type: pro2
+
+  - from: identity-fluidity
+    to: quantum-values
+    type: pro3
+
+  - from: remix-culture
+    to: quantum-values
+    type: pro3
+
   - from: remix-culture
     to: social-remix
     type: pro3
@@ -713,6 +725,10 @@ elements:
 
   - id: identity-fluidity
     label: Identity Fluidity
+    category: leverage-point
+
+  - id: quantum-values
+    label: Quantum Values
     category: leverage-point
 
   - id: climate-migration

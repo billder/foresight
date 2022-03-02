@@ -587,22 +587,42 @@
     },
     {
       "from": "ai-ml",
-      "to": "next-tech-leap",
+      "to": "acceleration",
       "type": "leverage"
     },
     {
       "from": "ai-learning-assistants",
-      "to": "next-tech-leap",
+      "to": "acceleration",
       "type": "leverage"
     },
     {
       "from": "quantum-computing",
-      "to": "next-tech-leap",
+      "to": "acceleration",
       "type": "leverage"
     },
     {
       "from": "neural-interface",
-      "to": "next-tech-leap",
+      "to": "acceleration",
+      "type": "leverage"
+    },
+    {
+      "from": "college-enrollment",
+      "to": "education",
+      "type": "leverage"
+    },
+    {
+      "from": "teacher-salaries",
+      "to": "education",
+      "type": "leverage"
+    },
+    {
+      "from": "college-debt",
+      "to": "education",
+      "type": "leverage"
+    },
+    {
+      "from": "home-schooling",
+      "to": "education",
       "type": "leverage"
     }
   ],
@@ -623,19 +643,29 @@
       "category": "leverage-point"
     },
     {
-      "id": "next-tech-leap",
-      "label": "NEXT TECH LEAP",
+      "id": "acceleration",
+      "label": "ACCELERATION",
       "category": "leverage-point"
     },
     {
       "id": "public-health",
       "label": "PUBLIC HEALTH",
-      "category": "leverage-point"
+      "category": "sector"
     },
     {
       "id": "education",
       "label": "EDUCATION",
-      "category": "leverage-point"
+      "category": "sector"
+    },
+    {
+      "id": "education",
+      "label": "ECONOMY",
+      "category": "sector"
+    },
+    {
+      "id": "education",
+      "label": "ENVIRONMENT",
+      "category": "sector"
     },
     {
       "id": "ai-learning-assistants",

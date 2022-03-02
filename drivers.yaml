@@ -429,6 +429,10 @@ connections:
     to: tiktok
     type: pro1
 
+  - from: texting
+    to: emojis
+    type: pro2
+
   - from: xenophobia
     to: ideological-divide
     type: leverage
@@ -819,9 +823,9 @@ elements:
     label: Snapchat
     category: social
 
-  - id: 
-    label: 
-    category: 
+  - id: texting
+    label: texting
+    category: social
 
   - id: 
     label: 

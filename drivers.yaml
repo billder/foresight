@@ -636,47 +636,47 @@ elements:
     category: title 
 
   - id: ideological-divide
-    label: IDEOLOGICAL DIVIDE
+    label: Ideological Divide
     category: leverage-point
 
   - id: remix-culture
-    label: REMIX CULTURE
+    label: Remix Culture
     category: leverage-point
 
   - id: neurodaemons
-    label: NEURODAEMONS
+    label: Neurodaemons
     category: leverage-point
 
   - id: acceleration
-    label: ACCELERATION
+    label: Acceleration
     category: leverage-point
 
   - id: skimming
-    label: SKIMMING
+    label: Skimming
     category: leverage-point
 
   - id: identity-fluidity
-    label: IDENTITY FLUIDITY
+    label: Identity Fluidity
     category: leverage-point
 
   - id: public-health
-    label: PUBLIC HEALTH
+    label: Public Health
     category: sector
 
   - id: education
-    label: EDUCATION
+    label: Education
     category: sector
 
   - id: economy
-    label: ECONOMY
+    label: Economy
     category: sector
 
   - id: technology
-    label: TECHNOLOGY
+    label: Technology
     category: sector
 
   - id: environment
-    label: ENVIRONMENT
+    label: Environment
     category: sector
 
   - id: gender-fluidity

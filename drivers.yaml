@@ -497,6 +497,10 @@ connections:
     to: education
     type: leverage  
 
+  - from: college-debt
+    to: economy
+    type: leverage  
+
   - from: home-schooling
     to: education
     type: leverage  
@@ -579,7 +583,7 @@ elements:
     label: TECHNOLOGY
     category: sector
 
-  - id: education
+  - id: environment
     label: ENVIRONMENT
     category: sector
 

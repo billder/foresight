@@ -859,10 +859,6 @@ elements:
     label: student:teacher ratio
     category: social
 
-  - id: tech-affordability
-    label: tech affordability
-    category: technology
-
   - id: translation-tech
     label: translation tech
     category: technology
@@ -885,10 +881,6 @@ elements:
 
   - id: xr-metaverse
     label: XR/metaverse
-    category: technology
-
-  - id: xr-affordability
-    label: XR/metaverse affordability
     category: technology
 
   - id: emojis

@@ -433,6 +433,14 @@ connections:
     to: social-media
     type: pro1
 
+  - from: pandemic-endemic
+    to: dystopia
+    type: pro1
+
+  - from: interest-based-classes
+    to: education
+    type: leverage
+
   - from: xenophobia
     to: ideological-divide
     type: leverage
@@ -490,6 +498,10 @@ connections:
     type: leverage  
 
   - from: teacher-salaries
+    to: education
+    type: leverage  
+
+  - from: student-teacher-ratio
     to: education
     type: leverage  
 

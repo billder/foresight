@@ -679,15 +679,15 @@ connections:
 
   - from: identity-fluidity
     to: social-remix
-    type: pro2
+    type: pro3
 
   - from: remix-culture
     to: social-remix
-    type: pro2
+    type: pro3
 
   - from: ideological-divide
     to: social-remix
-    type: con2
+    type: con3
 
 elements:
 
@@ -708,7 +708,7 @@ elements:
     category: leverage-point
 
   - id: skim-to-learn
-    label: Skim to learn
+    label: Skim to Learn
     category: leverage-point
 
   - id: identity-fluidity
@@ -717,11 +717,11 @@ elements:
 
   - id: climate-migration
     label: Climate Migration
-    category: leverage point
+    category: leverage-point
 
   - id: social-remix
     label: Social Remix
-    category: leverage point
+    category: leverage-point
 
   - id: public-health
     label: Public Health

@@ -429,7 +429,7 @@ connections:
     to: personal-daemons
     type: leverage
 
-  - from: human-brain-interface
+  - from: neural-interface
     to: personal-daemons
     type: leverage  
 
@@ -445,7 +445,7 @@ connections:
     to: next-tech-leap
     type: leverage  
 
-  - from: human-brain-interface
+  - from: neural-interface
     to: next-tech-leap
     type: leverage  
 
@@ -591,8 +591,8 @@ elements:
     label: interest-based classes
     category: social
 
-  - id: human-brain-interface
-    label: human brain interface
+  - id: neural-interface
+    label: neural interface
     category: technology
 
   - id: immigration-policies

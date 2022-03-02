@@ -536,7 +536,7 @@
       "type": "leverage"
     },
     {
-      "from": "human-brain-interface",
+      "from": "neural-interface",
       "to": "personal-daemons",
       "type": "leverage"
     },
@@ -556,7 +556,7 @@
       "type": "leverage"
     },
     {
-      "from": "human-brain-interface",
+      "from": "neural-interface",
       "to": "next-tech-leap",
       "type": "leverage"
     }
@@ -738,8 +738,8 @@
       "category": "social"
     },
     {
-      "id": "human-brain-interface",
-      "label": "human brain interface",
+      "id": "neural-interface",
+      "label": "neural interface",
       "category": "technology"
     },
     {

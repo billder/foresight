@@ -766,6 +766,11 @@
       "type": "pro1"
     },
     {
+      "from": "interest-based-learning",
+      "to": "youtube-tutorials",
+      "type": "pro1"
+    },
+    {
       "from": "poverty",
       "to": "civil-war",
       "type": "pro1"
@@ -779,6 +784,16 @@
       "from": "ondemand-learning",
       "to": "education",
       "type": "pro1"
+    },
+    {
+      "from": "online-collaboration",
+      "to": "youtube-tutorials",
+      "type": "pro1"
+    },
+    {
+      "from": "youtube-tutorials",
+      "to": "ondemand-learning",
+      "type": "pro2"
     },
     {
       "from": "ondemand-learning",
@@ -1201,6 +1216,11 @@
       "id": "student-teacher-ratio",
       "label": "student:teacher ratio",
       "category": "social"
+    },
+    {
+      "id": "youtube-tutorials",
+      "label": "YouTube tutorials",
+      "category": "technology"
     },
     {
       "id": "thought-networks",

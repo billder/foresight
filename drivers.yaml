@@ -441,6 +441,10 @@ connections:
     to: ondemand-learning
     type: pro1
 
+  - from: gender-fluidity
+    to: gender-equality
+    type: pro2
+
   - from: holistic-vs-skills
     to: ondemand-learning
     type: pro2

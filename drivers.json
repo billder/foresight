@@ -493,7 +493,7 @@
     {
       "from": "create-by-assembly",
       "to": "remix-culture",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "emojis",
@@ -501,7 +501,7 @@
       "type": "pro1"
     },
     {
-      "from": "hiphop-sampling",
+      "from": "sampling",
       "to": "create-by-assembly",
       "type": "pro1"
     },
@@ -749,6 +749,16 @@
       "from": "fresh-water-supply",
       "to": "environment",
       "type": "pro2"
+    },
+    {
+      "from": "attention-fragmentation",
+      "to": "job-hopping",
+      "type": "pro1"
+    },
+    {
+      "from": "attention-fragmentation",
+      "to": "identity-fluidity",
+      "type": "pro1"
     },
     {
       "from": "interest-based-learning",
@@ -1213,8 +1223,8 @@
       "category": "technology"
     },
     {
-      "id": "hiphop-sampling",
-      "label": "hiphop sampling",
+      "id": "sampling",
+      "label": "music sampling",
       "category": "social"
     },
     {

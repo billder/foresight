@@ -96,11 +96,6 @@
       "type": "pro1"
     },
     {
-      "from": "curriculum-investment",
-      "to": "content-creation-tools",
-      "type": "pro1"
-    },
-    {
       "from": "cybersecurity",
       "to": "personal-security",
       "type": "pro1"
@@ -431,11 +426,6 @@
       "type": "leverage"
     },
     {
-      "from": "fundamentalism",
-      "to": "intellectual-elite",
-      "type": "con1"
-    },
-    {
       "from": "student-teacher-ratio",
       "to": "public-k12-enrollment",
       "type": "pro1"
@@ -605,12 +595,7 @@
     {
       "id": "air-quality",
       "label": "air quality",
-      "category": "environment"
-    },
-    {
-      "id": "intellectual-elite",
-      "label": "attitudes toward intellectual elite",
-      "category": "social"
+      "category": "environmental"
     },
     {
       "id": "authoritarianism",
@@ -758,8 +743,8 @@
       "category": "social"
     },
     {
-      "id": "human-brain-interfaces",
-      "label": "human brain interfaces",
+      "id": "human-brain-interface",
+      "label": "human brain interface",
       "category": "technology"
     },
     {

@@ -77,10 +77,6 @@ connections:
     to: collaboration-technology
     type: pro1
 
-  - from: curriculum-investment
-    to: content-creation-tools
-    type: pro1
-
   - from: cybersecurity
     to: personal-security
     type: pro1
@@ -345,10 +341,6 @@ connections:
     to: public-health
     type: leverage
 
-  - from: fundamentalism
-    to: intellectual-elite
-    type: con1
-
   - from: student-teacher-ratio
     to: public-k12-enrollment
     type: pro1
@@ -485,11 +477,7 @@ elements:
 
   - id: air-quality
     label: air quality
-    category: environment
-
-  - id: intellectual-elite
-    label: attitudes toward intellectual elite
-    category: social
+    category: environmental
 
   - id: authoritarianism
     label: authoritarianism
@@ -607,8 +595,8 @@ elements:
     label: interest-based classes
     category: social
 
-  - id: human-brain-interfaces
-    label: human brain interfaces
+  - id: human-brain-interface
+    label: human brain interface
     category: technology
 
   - id: immigration-policies

@@ -501,6 +501,50 @@ connections:
     to: education
     type: leverage  
 
+  - from: ai-ml
+    to: technology
+    type: leverage
+
+  - from: network-speed
+    to: technology
+    type: leverage
+
+  - from: cybersecurity
+    to: technology
+    type: leverage
+
+  - from: computing-power
+    to: technology
+    type: leverage
+
+  - from: gdp
+    to: economy
+    type: leverage
+
+  - from: job-market
+    to: economy
+    type: leverage
+
+  - from: interest-rates
+    to: economy
+    type: leverage
+
+  - from: pollution
+    to: environment
+    type: leverage
+
+  - from: climate-migration
+    to: environment
+    type: leverage
+
+  - from: food-supply
+    to: environment
+    type: leverage
+
+  - from: fresh-water-supply
+    to: environment
+    type: leverage
+
 elements:
 
   - id: ideological-divide
@@ -527,8 +571,12 @@ elements:
     label: EDUCATION
     category: sector
 
-  - id: education
+  - id: economy
     label: ECONOMY
+    category: sector
+
+  - id: technology
+    label: TECHNOLOGY
     category: sector
 
   - id: education

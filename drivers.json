@@ -788,11 +788,6 @@
   ],
   "elements": [
     {
-      "id": "title",
-      "label": "THE FUTURE OF LEARNING",
-      "category": "title"
-    },
-    {
       "id": "ideological-divide",
       "label": "Ideological Divide",
       "category": "leverage-point"

@@ -41,6 +41,11 @@
       "type": "con1"
     },
     {
+      "from": "climate-change-imperative",
+      "to": "climate-migration",
+      "type": "pro2"
+    },
+    {
       "from": "climate-migration",
       "to": "college-enrollment",
       "type": "pro1"

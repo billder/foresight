@@ -583,197 +583,197 @@
     {
       "from": "cultural-exposure",
       "to": "identity-fluidity",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "interest-based-learning",
       "to": "education",
-      "type": "leverage"
+      "type": "pro1"
     },
     {
       "from": "xenophobia",
       "to": "ideological-divide",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "cultism",
       "to": "ideological-divide",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "fundamentalism",
       "to": "ideological-divide",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "authoritarianism",
       "to": "ideological-divide",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "cultural-exposure",
       "to": "ideological-divide",
-      "type": "leverage"
+      "type": "con2"
     },
     {
       "from": "content-creation",
       "to": "remix-culture",
-      "type": "leverage"
+      "type": "pro1"
     },
     {
       "from": "social-media",
       "to": "remix-culture",
-      "type": "leverage"
+      "type": "pro1"
     },
     {
       "from": "ai-learning-assistants",
       "to": "neurodaemons",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "neural-interface",
       "to": "neurodaemons",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "ai-ml",
       "to": "acceleration",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "ai-learning-assistants",
       "to": "acceleration",
-      "type": "leverage"
+      "type": "pro1"
     },
     {
       "from": "quantum-computing",
       "to": "acceleration",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "neural-interface",
       "to": "acceleration",
-      "type": "leverage"
+      "type": "pro1"
     },
     {
       "from": "college-enrollment",
       "to": "education",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "teacher-salaries",
       "to": "education",
-      "type": "leverage"
+      "type": "pro1"
     },
     {
       "from": "student-teacher-ratio",
       "to": "education",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "college-debt",
       "to": "education",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "college-debt",
       "to": "economy",
-      "type": "leverage"
+      "type": "pro1"
     },
     {
       "from": "home-schooling",
       "to": "education",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "ai-ml",
       "to": "technology",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "network-speed",
       "to": "technology",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "cybersecurity",
       "to": "technology",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "computing-power",
       "to": "technology",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "gdp",
       "to": "economy",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "job-market",
       "to": "economy",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "interest-rates",
       "to": "economy",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "pollution",
       "to": "environment",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "climate-migration",
       "to": "environment",
-      "type": "leverage"
+      "type": "pro1"
     },
     {
       "from": "food-supply",
       "to": "environment",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "fresh-water-supply",
       "to": "environment",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "interest-based-learning",
       "to": "skimming",
-      "type": "leverage"
+      "type": "pro1"
     },
     {
       "from": "ondemand-learning",
       "to": "education",
-      "type": "leverage"
+      "type": "pro1"
     },
     {
       "from": "ondemand-learning",
       "to": "skimming",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "ondemand-learning",
       "to": "neurodaemons",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "create-by-assembly",
       "to": "skimming",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "job-hopping",
       "to": "skimming",
-      "type": "leverage"
+      "type": "pro2"
     },
     {
       "from": "job-hopping",
       "to": "acceleration",
-      "type": "leverage"
+      "type": "pro1"
     },
     {
       "from": "title",

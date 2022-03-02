@@ -851,18 +851,8 @@
       "type": "pro3"
     },
     {
-      "from": "quantum-values",
-      "to": "social-remix",
-      "type": "pro3"
-    },
-    {
       "from": "climate-migration",
       "to": "social-remix",
-      "type": "pro3"
-    },
-    {
-      "from": "social-remix",
-      "to": "identity-fluidity",
       "type": "pro3"
     },
     {
@@ -874,11 +864,6 @@
       "from": "quantum-computing",
       "to": "quantum-values",
       "type": "pro2"
-    },
-    {
-      "from": "quantum-values",
-      "to": "identity-fluidity",
-      "type": "pro3"
     },
     {
       "from": "identity-fluidity",
@@ -903,6 +888,11 @@
     {
       "from": "ideological-divide",
       "to": "social-remix",
+      "type": "con3"
+    },
+    {
+      "from": "ideological-divide",
+      "to": "identity-fluidity",
       "type": "con3"
     }
   ],

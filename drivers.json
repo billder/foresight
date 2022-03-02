@@ -546,6 +546,16 @@
       "type": "pro1"
     },
     {
+      "from": "create-by-assembly",
+      "to": "ondemand-learning",
+      "type": "pro1"
+    },
+    {
+      "from": "holistic-vs-skills",
+      "to": "ondemand-learning",
+      "type": "pro2"
+    },
+    {
       "from": "interest-based-classes",
       "to": "education",
       "type": "leverage"
@@ -1133,9 +1143,9 @@
       "category": "social"
     },
     {
-      "id": null,
-      "label": null,
-      "category": null
+      "id": "ondemand-learning",
+      "label": "on-demand learning",
+      "category": "social"
     },
     {
       "id": null,

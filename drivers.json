@@ -722,6 +722,11 @@
     },
     {
       "from": "ondemand-learning",
+      "to": "education",
+      "type": "leverage"
+    },
+    {
+      "from": "ondemand-learning",
       "to": "skimming",
       "type": "leverage"
     },

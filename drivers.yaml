@@ -462,7 +462,7 @@ connections:
     type: pro1
 
   - from: cultural-exposure
-    to: identify-fluidity
+    to: identity-fluidity
     type: leverage
 
   - from: interest-based-learning
@@ -617,10 +617,6 @@ connections:
     to: acceleration
     type: leverage
 
-  - from: ideological-sidebar
-    to: ideological-divide
-    type: leverage
-
   - from: title
     to: skimming
     type: invisible
@@ -646,10 +642,6 @@ elements:
   - id: ideological-divide
     label: IDEOLOGICAL DIVIDE
     category: leverage-point
-
-  - id: ideological-sidebar
-    label: This is text about ideological divide. It explains some stuff.
-    category: leverage-sidebar
 
   - id: remix-culture
     label: REMIX CULTURE

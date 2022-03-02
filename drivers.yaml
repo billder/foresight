@@ -449,6 +449,22 @@ connections:
     to: job-hopping
     type: pro2
 
+  - from: social-media
+    to: attention-fragmentation
+    type: pro2
+
+  - from: gender-fluidity
+    to: identity-fluidity
+    type: pro2
+
+  - from: job-hopping
+    to: identity-fluidity
+    type: pro1
+
+  - from: cultural-exposure
+    to: identify-fluidity
+    type: leverage
+
   - from: interest-based-learning
     to: education
     type: leverage
@@ -610,7 +626,7 @@ connections:
     type: invisible
 
   - from: title
-    to: accleration
+    to: acceleration
     type: invisible
 
   - from: title
@@ -674,6 +690,14 @@ elements:
   - id: environment
     label: ENVIRONMENT
     category: sector
+
+  - id: gender-fluidity
+    label: gender fluidity
+    category: social
+
+  - id: attention-fragmentation
+    label: attention fragmentation
+    category: social
 
   - id: ai-learning-assistants
     label: AI learning assistants

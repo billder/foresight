@@ -332,7 +332,7 @@
     },
     {
       "from": "online-collaboration",
-      "to": "interest-based classes",
+      "to": "interest-based-learning",
       "type": "pro1"
     },
     {
@@ -556,7 +556,7 @@
       "type": "pro2"
     },
     {
-      "from": "interest-based-classes",
+      "from": "interest-based-learning",
       "to": "education",
       "type": "leverage"
     },
@@ -898,8 +898,8 @@
       "category": "environmental"
     },
     {
-      "id": "interest-based-classes",
-      "label": "interest-based classes",
+      "id": "interest-based-learning",
+      "label": "interest-based learning",
       "category": "social"
     },
     {

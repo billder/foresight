@@ -266,7 +266,7 @@ connections:
     type: pro1
 
   - from: online-collaboration
-    to: interest-based classes
+    to: interest-based-learning
     type: pro1
 
   - from: teacher-salaries
@@ -445,7 +445,7 @@ connections:
     to: ondemand-learning
     type: pro2
 
-  - from: interest-based-classes
+  - from: interest-based-learning
     to: education
     type: leverage
 
@@ -719,8 +719,8 @@ elements:
     label: green energy production
     category: environmental
 
-  - id: interest-based-classes
-    label: interest-based classes
+  - id: interest-based-learning
+    label: interest-based learning
     category: social
 
   - id: neural-interface

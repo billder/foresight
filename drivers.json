@@ -28,7 +28,7 @@
     {
       "from": "air-quality",
       "to": "public-health",
-      "type": "leverage"
+      "type": "pro1"
     },
     {
       "from": "authoritarianism",
@@ -103,17 +103,17 @@
     {
       "from": "extreme-weather",
       "to": "public-health",
-      "type": "leverage"
+      "type": "con1"
     },
     {
       "from": "food-supply",
       "to": "public-health",
-      "type": "leverage"
+      "type": "pro1"
     },
     {
       "from": "fresh-water-supply",
       "to": "public-health",
-      "type": "leverage"
+      "type": "pro1"
     },
     {
       "from": "gaming-culture",
@@ -273,7 +273,7 @@
     {
       "from": "pandemic-endemic",
       "to": "public-health",
-      "type": "leverage"
+      "type": "con1"
     },
     {
       "from": "pandemic-endemic",
@@ -291,9 +291,9 @@
       "type": "con1"
     },
     {
-      "from": "pollution-levels",
+      "from": "pollution",
       "to": "public-health",
-      "type": "leverage"
+      "type": "con1"
     },
     {
       "from": "population-size",
@@ -313,7 +313,7 @@
     {
       "from": "poverty",
       "to": "public-health",
-      "type": "leverage"
+      "type": "con1"
     },
     {
       "from": "poverty",
@@ -413,17 +413,17 @@
     {
       "from": "public-health",
       "to": "dystopia",
-      "type": "leverage"
+      "type": "con1"
     },
     {
       "from": "public-health",
       "to": "longevity",
-      "type": "leverage"
+      "type": "pro1"
     },
     {
       "from": "pandemic-endemic",
       "to": "public-health",
-      "type": "leverage"
+      "type": "con2"
     },
     {
       "from": "student-teacher-ratio",
@@ -473,6 +473,21 @@
     {
       "from": "population-size",
       "to": "cultural-exposure",
+      "type": "pro1"
+    },
+    {
+      "from": "parental-income-levels",
+      "to": "private-k12-enrollment",
+      "type": "pro1"
+    },
+    {
+      "from": "job-market",
+      "to": "parental-income-levels",
+      "type": "pro1"
+    },
+    {
+      "from": "extreme-weather",
+      "to": "climate-migration",
       "type": "pro1"
     },
     {
@@ -542,16 +557,6 @@
     },
     {
       "from": "human-brain-interface",
-      "to": "next-tech-leap",
-      "type": "leverage"
-    },
-    {
-      "from": null,
-      "to": "next-tech-leap",
-      "type": "leverage"
-    },
-    {
-      "from": null,
       "to": "next-tech-leap",
       "type": "leverage"
     }
@@ -658,18 +663,8 @@
       "category": "technology"
     },
     {
-      "id": "corporate-education-funding",
-      "label": "corporate education funding",
-      "category": "political"
-    },
-    {
       "id": "cybersecurity",
       "label": "cybersecurity",
-      "category": "technology"
-    },
-    {
-      "id": "data-storage",
-      "label": "data storage",
       "category": "technology"
     },
     {
@@ -823,8 +818,8 @@
       "category": "social"
     },
     {
-      "id": "pollution-levels",
-      "label": "pollution levels",
+      "id": "pollution",
+      "label": "pollution",
       "category": "environmental"
     },
     {
@@ -915,11 +910,6 @@
     {
       "id": "tech-affordability",
       "label": "tech affordability",
-      "category": "technology"
-    },
-    {
-      "id": "tech-monopolies",
-      "label": "tech monopolies",
       "category": "technology"
     },
     {

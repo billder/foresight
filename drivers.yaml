@@ -601,19 +601,31 @@ connections:
     to: acceleration
     type: leverage
 
-  - from: 
-    to: skimming
+  - from: title-sidebar
+    to: title
     type: leverage
 
-  - from: 
-    to: skimming
+  - from: ideological-sidebar
+    to: ideological-divide
     type: leverage
 
 elements:
 
+  - id: title
+    label: THE FUTURE OF LEARNING
+    category: title 
+
+  - id: title-sidebar
+    label: This is a description overviewing this map. It's really clever if a bit long.
+    category: title-sidebar
+
   - id: ideological-divide
     label: IDEOLOGICAL DIVIDE
     category: leverage-point
+
+  - id: ideological-sidebar
+    label: This is text about ideological divide. It explains some stuff.
+    category: leverage-sidebar
 
   - id: remix-culture
     label: REMIX CULTURE
@@ -629,6 +641,10 @@ elements:
 
   - id: skimming
     label: SKIMMING
+    category: leverage-point
+
+  - id: identity-fluidity
+    label: IDENTITY FLUIDITY
     category: leverage-point
 
   - id: public-health

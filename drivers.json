@@ -736,9 +736,19 @@
       "type": "pro1"
     },
     {
-      "from": "civil-war",
+      "from": "civil-wars",
       "to": "active-war",
       "type": "pro2"
+    },
+    {
+      "from": "pandemic-endemic",
+      "to": "longevity",
+      "type": "con2"
+    },
+    {
+      "from": "work-life-balance",
+      "to": "job-hopping",
+      "type": "pro1"
     },
     {
       "from": "climate-migration",

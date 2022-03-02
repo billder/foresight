@@ -610,7 +610,15 @@ connections:
     type: pro1
 
   - from: interest-based-learning
-    to: skimming
+    to: skim-to-learn
+    type: pro1
+
+  - from: poverty
+    to: civil-war
+    type: pro1
+
+  - from: poverty
+    to: xenophobia
     type: pro1
 
   - from: ondemand-learning
@@ -618,19 +626,27 @@ connections:
     type: pro1
 
   - from: ondemand-learning
-    to: skimming
+    to: skim-to-learn
     type: pro2
 
   - from: ondemand-learning
     to: neurodaemons
     type: pro2
 
+  - from: online-collaboration
+    to: thought-networks
+    type: pro2
+
+  - from: neurodaemons
+    to: thought-networks
+    type: pro2
+
   - from: create-by-assembly
-    to: skimming
+    to: skim-to-learn
     type: pro2
 
   - from: job-hopping
-    to: skimming
+    to: skim-to-learn
     type: pro2
 
   - from: job-hopping
@@ -655,8 +671,8 @@ elements:
     label: Acceleration
     category: leverage-point
 
-  - id: skimming
-    label: Skimming
+  - id: skim-to-learn
+    label: Skim to learn
     category: leverage-point
 
   - id: identity-fluidity
@@ -946,6 +962,10 @@ elements:
   - id: student-teacher-ratio
     label: student:teacher ratio
     category: social
+
+  - id: thought-networks
+    label: thought networks
+    category: technology
 
   - id: translation-tech
     label: translation tech

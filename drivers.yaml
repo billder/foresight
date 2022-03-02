@@ -416,7 +416,19 @@ connections:
   - from: visual-language
     to: neural interface
     type: pro1
-    
+
+  - from: snapchat
+    to: tiktok
+    type: pro1
+
+  - from: social-media
+    to: snapchat
+    type: pro1
+
+  - from: social-media
+    to: tiktok
+    type: pro1
+
   - from: xenophobia
     to: ideological-divide
     type: leverage
@@ -493,6 +505,10 @@ elements:
 
   - id: public-health
     label: PUBLIC HEALTH
+    category: leverage-point
+
+  - id: education
+    label: EDUCATION
     category: leverage-point
 
   - id: ai-learning-assistants
@@ -799,9 +815,9 @@ elements:
     label: create by assembly
     category: social
 
-  - id: 
-    label: 
-    category: 
+  - id: snapchat
+    label: Snapchat
+    category: social
 
   - id: 
     label: 

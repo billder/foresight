@@ -521,6 +521,21 @@
       "type": "pro1"
     },
     {
+      "from": "snapchat",
+      "to": "tiktok",
+      "type": "pro1"
+    },
+    {
+      "from": "social-media",
+      "to": "snapchat",
+      "type": "pro1"
+    },
+    {
+      "from": "social-media",
+      "to": "tiktok",
+      "type": "pro1"
+    },
+    {
       "from": "xenophobia",
       "to": "ideological-divide",
       "type": "leverage"
@@ -615,6 +630,11 @@
     {
       "id": "public-health",
       "label": "PUBLIC HEALTH",
+      "category": "leverage-point"
+    },
+    {
+      "id": "education",
+      "label": "EDUCATION",
       "category": "leverage-point"
     },
     {
@@ -998,9 +1018,9 @@
       "category": "social"
     },
     {
-      "id": null,
-      "label": null,
-      "category": null
+      "id": "snapchat",
+      "label": "Snapchat",
+      "category": "social"
     },
     {
       "id": null,

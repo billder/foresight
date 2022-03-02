@@ -585,6 +585,14 @@ connections:
     to: environment
     type: pro1
 
+  - from: civil-war
+    to: active-war
+    type: pro2
+
+  - from: climate-migration
+    to: immigration-policies
+    type: pro1
+
   - from: food-supply
     to: environment
     type: pro2
@@ -620,22 +628,6 @@ connections:
   - from: job-hopping
     to: acceleration
     type: pro1
-
-  - from: title
-    to: skimming
-    type: invisible
-
-  - from: title
-    to: acceleration
-    type: invisible
-
-  - from: title
-    to: remix-culture
-    type: invisible
-
-  - from: title
-    to: identity-fluidity
-    type: invisible
 
 elements:
 

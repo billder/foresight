@@ -491,6 +491,36 @@
       "type": "pro1"
     },
     {
+      "from": "tiktok",
+      "to": "create-by-assembly",
+      "type": "pro1"
+    },
+    {
+      "from": "create-by-assembly",
+      "to": "remix-culture",
+      "type": "leverage"
+    },
+    {
+      "from": "emojis",
+      "to": "visual-language",
+      "type": "pro1"
+    },
+    {
+      "from": "hiphop-sampling",
+      "to": "create-by-assembly",
+      "type": "pro1"
+    },
+    {
+      "from": "content-creation-tools",
+      "to": "create-by-assembly",
+      "type": "pro1"
+    },
+    {
+      "from": "visual-language",
+      "to": "neural interface",
+      "type": "pro1"
+    },
+    {
       "from": "xenophobia",
       "to": "ideological-divide",
       "type": "leverage"
@@ -654,7 +684,7 @@
     },
     {
       "id": "content-creation",
-      "label": "content creation",
+      "label": "rapid content creation",
       "category": "social"
     },
     {
@@ -946,6 +976,46 @@
       "id": "xr-affordability",
       "label": "XR/metaverse affordability",
       "category": "technology"
+    },
+    {
+      "id": "emojis",
+      "label": "emojis",
+      "category": "social"
+    },
+    {
+      "id": "tiktok",
+      "label": "TikTok",
+      "category": "technology"
+    },
+    {
+      "id": "hiphop-sampling",
+      "label": "hiphop sampling",
+      "category": "social"
+    },
+    {
+      "id": "create-by-assembly",
+      "label": "create by assembly",
+      "category": "social"
+    },
+    {
+      "id": null,
+      "label": null,
+      "category": null
+    },
+    {
+      "id": null,
+      "label": null,
+      "category": null
+    },
+    {
+      "id": null,
+      "label": null,
+      "category": null
+    },
+    {
+      "id": null,
+      "label": null,
+      "category": null
     }
   ]
 }

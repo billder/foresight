@@ -771,13 +771,23 @@
       "type": "pro1"
     },
     {
+      "from": "youtube-tutorials",
+      "to": "remix-culture",
+      "type": "pro1"
+    },
+    {
       "from": "interest-based-learning",
       "to": "youtube-tutorials",
       "type": "pro1"
     },
     {
+      "from": "gdp",
+      "to": "national-debts",
+      "type": "pro1"
+    },
+    {
       "from": "poverty",
-      "to": "civil-war",
+      "to": "civil-wars",
       "type": "pro1"
     },
     {
@@ -834,6 +844,21 @@
       "from": "job-hopping",
       "to": "acceleration",
       "type": "pro1"
+    },
+    {
+      "from": "identity-fluidity",
+      "to": "social-remix",
+      "type": "pro2"
+    },
+    {
+      "from": "remix-culture",
+      "to": "social-remix",
+      "type": "pro2"
+    },
+    {
+      "from": "ideological-divide",
+      "to": "social-remix",
+      "type": "con2"
     }
   ],
   "elements": [
@@ -866,6 +891,16 @@
       "id": "identity-fluidity",
       "label": "Identity Fluidity",
       "category": "leverage-point"
+    },
+    {
+      "id": "climate-migration",
+      "label": "Climate Migration",
+      "category": "leverage point"
+    },
+    {
+      "id": "social-remix",
+      "label": "Social Remix",
+      "category": "leverage point"
     },
     {
       "id": "public-health",
@@ -931,11 +966,6 @@
       "id": "climate-change-imperative",
       "label": "climate change imperative",
       "category": "environmental"
-    },
-    {
-      "id": "climate-migration",
-      "label": "climate migration",
-      "category": "technology"
     },
     {
       "id": "collaboration-technology",

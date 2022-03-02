@@ -601,23 +601,31 @@ connections:
     to: acceleration
     type: leverage
 
-  - from: title-sidebar
-    to: title
-    type: leverage
-
   - from: ideological-sidebar
     to: ideological-divide
     type: leverage
+
+  - from: title
+    to: skimming
+    type: invisible
+
+  - from: title
+    to: accleration
+    type: invisible
+
+  - from: title
+    to: remix-culture
+    type: invisible
+
+  - from: title
+    to: identity-fluidity
+    type: invisible
 
 elements:
 
   - id: title
     label: THE FUTURE OF LEARNING
     category: title 
-
-  - id: title-sidebar
-    label: This is a description overviewing this map. It's really clever if a bit long.
-    category: title-sidebar
 
   - id: ideological-divide
     label: IDEOLOGICAL DIVIDE

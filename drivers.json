@@ -846,6 +846,26 @@
       "type": "pro1"
     },
     {
+      "from": "social-remix",
+      "to": "quantum-values",
+      "type": "pro3"
+    },
+    {
+      "from": "quantum-values",
+      "to": "social-remix",
+      "type": "pro3"
+    },
+    {
+      "from": "climate-migration",
+      "to": "social-remix",
+      "type": "pro3"
+    },
+    {
+      "from": "social-remix",
+      "to": "identity-fluidity",
+      "type": "pro3"
+    },
+    {
       "from": "identity-fluidity",
       "to": "social-remix",
       "type": "pro3"
@@ -856,6 +876,11 @@
       "type": "pro2"
     },
     {
+      "from": "quantum-values",
+      "to": "identity-fluidity",
+      "type": "pro3"
+    },
+    {
       "from": "identity-fluidity",
       "to": "quantum-values",
       "type": "pro3"
@@ -864,6 +889,11 @@
       "from": "remix-culture",
       "to": "quantum-values",
       "type": "pro3"
+    },
+    {
+      "from": "cultural-exposure",
+      "to": "social-remix",
+      "type": "pro2"
     },
     {
       "from": "remix-culture",

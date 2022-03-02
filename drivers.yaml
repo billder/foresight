@@ -325,10 +325,6 @@ connections:
     to: fundamentalism
     type: con2
 
-  - from: content-creation-tools
-    to: content-creation
-    type: pro2
-
   - from: public-health
     to: dystopia
     type: con1
@@ -409,8 +405,8 @@ connections:
     to: create-by-assembly
     type: pro1
 
-  - from: content-creation-tools
-    to: create-by-assembly
+  - from: create-by-assembly
+    to: content-creation
     type: pro1
 
   - from: visual-language
@@ -433,6 +429,10 @@ connections:
     to: emojis
     type: pro2
 
+  - from: texting
+    to: social-media
+    type: pro1
+
   - from: xenophobia
     to: ideological-divide
     type: leverage
@@ -451,10 +451,6 @@ connections:
 
   - from: cultural-exposure
     to: ideological-divide
-    type: leverage
-
-  - from: content-creation-tools
-    to: remix-culture
     type: leverage
 
   - from: content-creation
@@ -570,10 +566,6 @@ elements:
   - id: content-creation
     label: rapid content creation
     category: social
-
-  - id: content-creation-tools
-    label: content creation tools
-    category: technology
 
   - id: cybersecurity
     label: cybersecurity

@@ -597,6 +597,14 @@ connections:
     to: longevity
     type: con2
 
+  - from: wealth-inequality
+    to: lower-middle-class-income
+    type: con2
+
+  - from: lower-middle-class-income
+    to: work-life-balance
+    type: con2
+
   - from: work-life-balance
     to: job-hopping
     type: pro1
@@ -938,6 +946,10 @@ elements:
   - id: longevity
     label: longevity
     category: social
+
+  - id: lower-middle-class-income
+    label: lower & middle class income
+    category: economic
 
   - id: national-debts
     label: national debts

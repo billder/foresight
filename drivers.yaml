@@ -137,11 +137,11 @@ connections:
     to: home-schooling
     type: con1
 
-  - from: green-energy-production
+  - from: green-energy
     to: air-quality
     type: pro2
 
-  - from: green-energy-production
+  - from: green-energy
     to: climate-change-imperative
     type: con1
 
@@ -593,6 +593,18 @@ connections:
     to: active-war
     type: pro2
 
+  - from: carbon-levels
+    to: extreme-weather
+    type: pro2
+
+  - from: carbon-levels
+    to: ocean-levels
+    type: pro2
+
+  - from: green-energy
+    to: carbon-levels
+    type: con2
+
   - from: pandemic-endemic
     to: longevity
     type: con2
@@ -815,6 +827,10 @@ elements:
     label: authoritarianism
     category: political
 
+  - id: carbon-levels
+    label: carbon levels
+    category: environmental
+
   - id: civil-wars
     label: civil wars
     category: political
@@ -907,8 +923,8 @@ elements:
     label: governmental education funding
     category: political
 
-  - id: green-energy-production
-    label: green energy production
+  - id: green-energy
+    label: green energy
     category: environmental
 
   - id: interest-based-learning
